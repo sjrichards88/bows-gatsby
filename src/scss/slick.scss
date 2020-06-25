@@ -1,0 +1,69 @@
+/* Custom slick */
+.slick-prev,
+.slick-next {
+    height: 30px;
+    width: 30px;
+
+    &:before {
+        content: "\63";
+        font-family: "icons";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 30px;
+        width: 30px;
+        font-size: 2rem;
+        color: #00afef;
+    }
+}
+
+.slick-prev {
+    left: 1.5rem;
+    z-index: 10;
+
+    &:before {
+        content: "\62";
+    }
+}
+
+.slick-next {
+    right: 1.5rem;
+    z-index: 10;
+}
+
+.slick-dots {
+    z-index: 11;
+    li {
+        margin: 0;
+
+        &:before {
+            display: none;
+        }
+
+        button {
+            &:before {
+                opacity: 1;
+                color: #23234B;
+                font-size: .85rem;
+            }
+
+            &:hover {
+                &:before {
+                    color: #ef59a1;
+                }
+            }
+        }
+
+        &.slick-active {
+            button {
+                &:before {
+                    color: #ef59a1;
+                }
+            }
+        }
+    }
+}
+.slick-current {
+    position: relative;
+    z-index: 10;
+}
