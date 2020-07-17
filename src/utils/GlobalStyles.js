@@ -1,37 +1,7 @@
-import { createGlobalStyle, withTheme } from "styled-components";
-import fontFiles from "./Fonts";
+import { createGlobalStyle, withTheme } from "styled-components"
 import { media } from "utils/Media"
 
 const GlobalStyles = createGlobalStyle`
-    
-    @font-face {
-        font-family: 'GothicA1Regular';
-        src: url("${fontFiles.GothicA1RegularWOFF2}") format('woff2'),
-            url("${fontFiles.GothicA1RegularWOFF}") format('woff');
-        font-weight: normal;
-        font-style: normal;
-    }
-
-    @font-face {
-        font-family: 'GothicA1Black';
-        src: url("${fontFiles.GothicA1BlackWOFF2}") format('woff2'),
-            url("${fontFiles.GothicA1BlackWOFF}") format('woff');
-        font-weight: normal;
-        font-style: normal;
-    }
-
-    @font-face {
-        font-family: "icons";
-        src: url("${fontFiles.SolheimCupEOT}");
-        src:
-            url("${fontFiles.SolheimCupEOT}?#iefix")  format("embedded-opentype"), 
-            url("${fontFiles.SolheimCupWOFF}") format("woff"),
-            url("${fontFiles.SolheimCupTTF}") format("truetype"),
-            url("${fontFiles.SolheimCupSVG}?#icons") format("svg");
-        font-weight: normal;
-        font-style: normal;
-    }
-
     body {
         font-family: ${props => props.theme.font.family.body};
         font-size: ${props => props.theme.font.size.base};
@@ -71,7 +41,7 @@ const GlobalStyles = createGlobalStyle`
     }
 
     h1, h2, h3 {
-        font-family: ${props => props.theme.font.family.atp}; 
+        font-family: ${props => props.theme.font.family.cinzel}; 
     }
 
     h1 {

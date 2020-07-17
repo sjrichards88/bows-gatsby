@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import shareImage from "images/Favicon-512x512.png"
+import shareImage from "images/logov2.png"
 
 const Entities = require('html-entities').XmlEntities;
 const entities = new Entities();

@@ -16,14 +16,14 @@ const fontSizeBase = 1;
 
 const font = {
     family: {
-        dinMedium: "GothicA1Black",
+        ruthie: "Ruthie, cursive",
         icons: "icons",
-        atp: "GothicA1Black",
-        base: "GothicA1Regular",
+        cinzel: "Cinzel, serif",
+        base: "PT Sans",
         italic: "DINNextLTProMediumItalic",
         // medium: "DIN Next LT W23 Medium",
-        bold: "GothicA1Black",
-        body: `"GothicA1Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"`
+        bold: "PT Sans",
+        body: `"PT Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"`
     },
     size: {
         xs: `${fontSizeBase * .75}rem`, // 12px
@@ -64,9 +64,9 @@ export default {
     font,
     transitionBase: "all .4s ease-in-out",
     colors: {
-        primary: "#23234B",
+        primary: "#be6e96",
         secondary: "#D6B036",
-        tertiary: "#ef59a1",
+        tertiary: "#a9a093",
         white: "#ffffff",
         whiteOff: "#f2f2f2",
         black: "#020202",
@@ -76,6 +76,7 @@ export default {
         grey2: "#878787",
         grey3: "#B2B2B2",
         grey4: "#DADADA",
+        grey5: "#eeeeee",
         blue: "#626C80",
         red: "#BB133E",
         redLight: "#ff1430",

@@ -1,12 +1,12 @@
 import React, { Component } from "react"
 import PropTypes from "prop-types"
 import { ThemeProvider } from "styled-components"
-import classNames from "classnames"
-import 'scss/main.scss'
+import "scss/main.scss"
 import SEO from "utils/Seo"
-import GlobalStyles from "utils/GlobalStyles";
+import GlobalStyles from "utils/GlobalStyles"
 import theme from "utils/Theme"
 import Header from "components/Header/Header"
+import Footer from "components/Footer/Footer"
 
 class Layout extends Component {
 
@@ -32,21 +32,9 @@ class Layout extends Component {
 				<>
 					<SEO title={this.props.title} description={this.props.description} image={this.props.image} path={this.props.path} />
 					<GlobalStyles />
-                    <div
-                        style={{
-                        margin: `0 auto`,
-                        maxWidth: 960,
-                        padding: `0 1.0875rem 1.45rem`,
-                        }}
-                    >
-                        <Header />
-                        <main>{children}</main>
-                        <footer>
-                        © {new Date().getFullYear()}, Built with
-                        {` `}
-                        <a href="https://www.gatsbyjs.org">Gatsby</a>
-                        </footer>
-                    </div>
+                    <Header />
+                    <main>{this.props.children}</main>
+                    <Footer />
 				</>
 			</ThemeProvider>
 		)

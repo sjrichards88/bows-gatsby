@@ -16,6 +16,17 @@ module.exports = {
 			}
 		},
 		{
+			resolve: `gatsby-plugin-google-fonts`,
+			options: {
+				fonts: [
+					`Cinzel:wght@400;700`,
+					`Ruthie`,
+					`PT Sans \:300,400,700`
+				],
+				display: 'swap'
+			},
+		},
+		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
 				name: `images`,
