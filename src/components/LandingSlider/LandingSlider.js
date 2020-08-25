@@ -120,13 +120,13 @@ class LandingSlider extends Component {
             speed: 1000,
             slidesToShow: 1,
             slidesToScroll: 1,
-            draggable: true,
+            draggable: false,
             fade: true,
-            autoplay: 0,
+            autoplay: 1,
             adaptiveHeight: false,
             lazyload: true,
             pauseOnHover: false,
-            arrows: true
+            arrows: false
         }
 
         return(
