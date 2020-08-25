@@ -33,8 +33,7 @@ const GlobalStyles = createGlobalStyle`
     h4,
     h5,
     h6 {
-        color: ${props => props.theme.colors.primary};
-        font-family: ${props => props.theme.font.family.bold};
+        font-family: ${props => props.theme.font.family.cinzel};
         font-weight: normal;
         line-height: ${props => props.theme.font.lineHeight.headings};
         margin-bottom: 1rem;

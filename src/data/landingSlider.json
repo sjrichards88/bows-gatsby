@@ -1,0 +1,18 @@
+[
+    {
+        "img": "../images/homeslider/1.jpg",
+        "imgMobile": "../images/homeslider/1-sm.jpg"
+    },
+    {
+        "img": "../images/homeslider/2.jpg",
+        "imgMobile": "../images/homeslider/2-sm.jpg"
+    },
+    {
+        "img": "../images/homeslider/3.jpg",
+        "imgMobile": "../images/homeslider/3-sm.jpg"
+    },
+    {
+        "img": "../images/homeslider/4.jpg",
+        "imgMobile": "../images/homeslider/4-sm.jpg"
+    }
+]

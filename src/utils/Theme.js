@@ -35,26 +35,26 @@ const font = {
     },
     lineHeight: {
         sm: 1.1,
-        base: 1.4,
+        base: 1.6,
         headings: 1.2
     },
     h1: {
-        size: `${fontSizeBase * 2.25}rem`
+        size: `${fontSizeBase * 2.45}rem`
     },
     h2: {
-        size: `${fontSizeBase * 1.5}rem` 
+        size: `${fontSizeBase * 1.75}rem` 
     },
     h3: {
-        size: `${fontSizeBase * 1.25}rem`
+        size: `${fontSizeBase * 1.45}rem`
     },
     h4: {
-        size: `${fontSizeBase * 1.125}rem`, 
+        size: `${fontSizeBase * 1.25}rem`, 
     },
     h5: {
         size: `${fontSizeBase * 1.125}rem`, 
     },
     h6: {
-        size: `${fontSizeBase * 1.25}rem`
+        size: `${fontSizeBase}rem`
     }
 }
 
@@ -65,19 +65,19 @@ export default {
     transitionBase: "all .4s ease-in-out",
     colors: {
         primary: "#be6e96",
-        secondary: "#D6B036",
+        secondary: "#b0c4dd",
         tertiary: "#a9a093",
         white: "#ffffff",
         whiteOff: "#f2f2f2",
         black: "#020202",
-        blackOff: "#333333",
+        blackOff: "#222222",
         grey: "#707070",
         grey1: "#575756",
         grey2: "#878787",
         grey3: "#B2B2B2",
         grey4: "#DADADA",
         grey5: "#eeeeee",
-        blue: "#626C80",
+        blue: "#b0c4dd",
         red: "#BB133E",
         redLight: "#ff1430",
         navy: "#1C2027",

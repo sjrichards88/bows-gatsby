@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React, { useState } from "react"
+import React, { Component } from "react"
 import styled from "styled-components"
 import {
     Container,
@@ -8,10 +8,10 @@ import {
     Collapse,
     Navbar,
     NavbarToggler,
-    NavbarBrand,
     Nav,
     NavItem
 } from 'reactstrap'
+import classNames from "classnames" 
 
 import { media } from "utils/Media"
 
@@ -22,6 +22,7 @@ import taglineAfter from "images/tagline-after.png"
 const HeaderStyled = styled.header`
     position: fixed;
     width: 100%;
+    z-index: 100;
     left: 0;
     background-color: white;
     border-bottom: 1px solid ${props => props.theme.colors.grey5};
@@ -35,6 +36,7 @@ const HeaderStyled = styled.header`
         transition: all 0.3s ease-in-out;
         height: 30px;
         display: none;
+        overflow: hidden;
 
         @media ${media.md} {
             display: block;
@@ -97,7 +99,7 @@ const HeaderStyled = styled.header`
         }
 
         a {
-            padding: .5rem ;
+            padding: .5rem;
         }
     }
 
@@ -105,12 +107,40 @@ const HeaderStyled = styled.header`
         position: absolute;
         right: 0;
         border-color: ${props => props.theme.colors.primary};
+        padding: .25rem .5rem;
+
+        span {
+            width: 1.3em;
+            height: 1.3em;
+        }
+    }
+
+    &.scrolled {
+        .tagline-wrapper {
+            height: 0;
+        }
+        .navbar-brand {
+            height: 50px;
+            top: 0;
+
+            @media ${media.sm} {
+                height: 70px;
+                padding: 0 10px 10px 10px;
+            }
+
+            img {
+                height: 40px;
+                @media ${media.sm} {
+                    height: 60px;
+                }
+            }
+        }
     }
 `
 
-const NavbarBrandStyled = styled(NavbarBrand)`
-    height: 50px;
-    padding: 5px;
+const NavbarBrandStyled = styled(Link)`
+    padding: 0 0 0 .25rem;
+    display: inline;
 
     @media ${media.md} {
         border-bottom: 1px solid ${props => props.theme.colors.grey5};
@@ -147,33 +177,11 @@ const NavbarHeader = styled.div`
     width: 100%;
 `
 
-&.scrolled {
-    .navbar-header {
-        .tagline-wrapper {
-            height: 0;
-        }
-        .navbar-brand {
-            height: 50px;
-            @media (min-width: $screen-sm) {
-                height: 75px;
-                padding: 0 10px 10px 10px;
-            }
-            img {
-                height: 40px;
-                @media (min-width: $screen-sm) {
-                    height: 60px;
-                }
-            }
-        }
-    }
-}
+const LinkStyled = styled(Link)`
+    display: block;
+`
 
 class Header extends Component {
-    const [isOpen, setIsOpen] = useState(false);
-    const toggle = () => setIsOpen(!isOpen);
-
-    const [isScrolled, setIsScrolled] = useState()
-
     constructor(props) {
         super(props)
 
@@ -191,37 +199,66 @@ class Header extends Component {
     	window.addEventListener('load', this.handleScroll);
     }
 
-    toggleNav() {
+    componentWillUnmount() {
+        window.removeEventListener('scroll', this.handleScroll)
+    }
 
+    toggleNav() {
+        this.setState({
+            navOpen: !this.state.navOpen
+        })
     }
 
     handleScroll() {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop
+        let scrolled
 
+        if (scrollTop > 50) {
+            scrolled = true
+        } else {
+            scrolled = false
+        }
+
+        this.setState({
+            scrolled
+        })
     }
 
     render() {
         return(
-            <HeaderStyled className="header home">
+            <HeaderStyled className={classNames({
+                "header": true,
+                "home": true,
+                "scrolled": this.state.scrolled
+            })}>
                 <Navbar expand="md" light>
                     <Container>
                         <Row className="justify-content-center">
                             <NavbarHeader>
-                                <NavbarToggler onClick={toggle} />
+                                <NavbarToggler onClick={this.toggleNav} />
                                 <div className="tagline-wrapper"><p className="tagline">Weddings in Taormina by Bouquets and Bows</p></div>
-                                <NavbarBrandStyled  href="#"><img src={logo} alt="Bouquets and Bows" /></NavbarBrandStyled>
+                                <NavbarBrandStyled to="/" className="navbar-brand">
+                                    <img src={logo} alt="Bouquets and Bows" />
+                                </NavbarBrandStyled>
                             </NavbarHeader>
                         </Row>
                         <Row>
-                            <Collapse isOpen={isOpen} navbar>
+                            <Collapse isOpen={this.state.navOpen} navbar>
                                 <Nav navbar>
                                     <NavItem>
-                                        <Link to="/" activeClassName="active">Home</Link>
+                                        <LinkStyled to="/" activeClassName="active">Home</LinkStyled>
                                     </NavItem>
                                     <NavItem>
-                                        <Link to="/about/" activeClassName="active">About</Link>
+                                        <LinkStyled to="/about/" activeClassName="active">About</LinkStyled>
                                     </NavItem>
                                     <NavItem>
-                                        <Link to="/contact/" activeClassName="active">Contact</Link>
+                                        <LinkStyled to="/gallery/" activeClassName="active">Gallery</LinkStyled>
+                                    </NavItem>
+                                    <NavItem>
+                                        <LinkStyled to="/real-weddings/" activeClassName="active">Weddings</LinkStyled>
+                                    </NavItem>
+                                    <NavItem>
+                                        <LinkStyled to="/contact/" activeClassName="active">Contact</LinkStyled>
                                     </NavItem>
                                 </Nav>
                             </Collapse>
