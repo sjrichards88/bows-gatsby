@@ -1,18 +1,26 @@
-[
+[    
     {
-        "img": "../images/homeslider/1.jpg",
-        "imgMobile": "../images/homeslider/1-sm.jpg"
+        "img": "../images/homeslider/1.jpg"
     },
     {
-        "img": "../images/homeslider/2.jpg",
-        "imgMobile": "../images/homeslider/2-sm.jpg"
+        "img": "../images/homeslider/9.jpg"
     },
     {
-        "img": "../images/homeslider/3.jpg",
-        "imgMobile": "../images/homeslider/3-sm.jpg"
+        "img": "../images/homeslider/8.jpg"
     },
     {
-        "img": "../images/homeslider/4.jpg",
-        "imgMobile": "../images/homeslider/4-sm.jpg"
+        "img": "../images/homeslider/12.jpg"
+    },
+    {
+        "img": "../images/homeslider/6.jpg"
+    },
+    {
+        "img": "../images/homeslider/2.jpg"
+    },
+    {
+        "img": "../images/homeslider/7.jpg"
+    },
+    {
+        "img": "../images/homeslider/4.jpg"
     }
 ]

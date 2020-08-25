@@ -9,7 +9,7 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons"
 import scrollToElement from "scroll-to-element"
 
 const Wrapper = styled.div`
-    height: 100vh;
+    max-height: 100vh;
     width: 101%;
     overflow: hidden;
     position: relative;
@@ -22,12 +22,12 @@ const Wrapper = styled.div`
 `
 
 const SliderStyled = styled(Slider)`
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
     width: 100%;
     height: 100%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 
     .slick-list,
     .slick-track,
@@ -36,11 +36,11 @@ const SliderStyled = styled(Slider)`
     }
 
     .slider-image-mobile {
-        position: absolute !important;
+        /* position: absolute !important;
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 100%; */
     }
 
 `
@@ -51,7 +51,7 @@ const WrapperText = styled.div`
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
-    background: rgba(176,196,221,.5);
+    background: rgba(176,196,221,.6);
     padding: 1rem;
 
     h1 {
@@ -120,13 +120,13 @@ class LandingSlider extends Component {
             speed: 1000,
             slidesToShow: 1,
             slidesToScroll: 1,
-            draggable: false,
+            draggable: true,
             fade: true,
-            autoplay: 1,
+            autoplay: 0,
             adaptiveHeight: false,
             lazyload: true,
             pauseOnHover: false,
-            arrows: false
+            arrows: true
         }
 
         return(
@@ -136,7 +136,7 @@ class LandingSlider extends Component {
                         return(
                             <React.Fragment key={i}>
                                 <Img fluid={image.node.img.childImageSharp.fluid} className="d-none d-md-block" />
-                                <Img fluid={image.node.imgMobile.childImageSharp.fluid} className="slider-image-mobile d-md-none" />
+                                {/* <Img fluid={image.node.imgMobile.childImageSharp.fluid} className="slider-image-mobile d-md-none" /> */}
                             </React.Fragment>
                         )
                     })}
@@ -168,13 +168,6 @@ export default () => (
                                     }
                                 }
                             }
-                            imgMobile {
-                                childImageSharp {
-                                    fluid(maxWidth: 768, quality: 100) {
-                                        ...GatsbyImageSharpFluid
-                                    }
-                                }
-                            }
                         }
                     }
                 }
@@ -187,3 +180,11 @@ export default () => (
         }}
     />
 )
+
+// imgMobile {
+//     childImageSharp {
+//         fluid(maxWidth: 768, quality: 100) {
+//             ...GatsbyImageSharpFluid
+//         }
+//     }
+// }
