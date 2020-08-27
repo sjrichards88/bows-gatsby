@@ -17,6 +17,7 @@ const fontSizeBase = 1;
 const font = {
     family: {
         ruthie: "Ruthie, cursive",
+        satisfy: "Satisfy, cursive",
         icons: "icons",
         cinzel: "Cinzel, serif",
         base: "PT Sans",
@@ -24,6 +25,11 @@ const font = {
         // medium: "DIN Next LT W23 Medium",
         bold: "PT Sans",
         body: `"PT Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"`
+    },
+    weight: {
+        thin: "300",
+        base: "400",
+        bold: "700"
     },
     size: {
         xs: `${fontSizeBase * .75}rem`, // 12px

@@ -91,7 +91,7 @@ const GlobalStyles = createGlobalStyle`
     }
 
     strong {
-        font-family: ${props => props.theme.font.family.bold};
+        font-weight: ${props => props.theme.font.weight.bold};
         letter-spacing: .5px;
     }
 

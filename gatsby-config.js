@@ -21,6 +21,7 @@ module.exports = {
 				fonts: [
 					`Cinzel:wght@400;700`,
 					`Ruthie`,
+					`Satisfy`,
 					`PT Sans \:300,400,700`
 				],
 				display: 'swap'

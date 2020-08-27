@@ -96,7 +96,7 @@ const Footer = () => {
                         © Bouquets & Bows {new Date().getFullYear()}<br />
                         All rights reserved <br /><br />
 
-                        Website by <a href="https://sjrdesigns.com" target="_blank" rel="noopener noreferrer">Sjrdesigns</a>
+                        Website by <a href="https://sjrdesigns.com" target="_blank" rel="noopener noreferrer">SJR Designs</a>
                     </Col>
                 </Row>
             </Container>

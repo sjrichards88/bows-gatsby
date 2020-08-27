@@ -63,10 +63,10 @@ const ImageWithText = (props) => {
     return(
         <StyledContainerMax>
             <Row>
-                <ColStyled lg={{ size: 8, order: props.imageRight ? 2 : 1}}>
+                <ColStyled lg={{ size: 6, order: props.imageRight ? 2 : 1}} xl={8}>
                     <ImgStyled fluid={props.data.img.childImageSharp.fluid} alt={props.data.alt} />
                 </ColStyled>
-                <ColTextStyled lg={{ size: 4, order: props.imageRight ? 1 : 2}} secondary={props.secondary}>
+                <ColTextStyled lg={{ size: 6, order: props.imageRight ? 1 : 2}} xl={4} secondary={props.secondary}>
                     <TextWrapper dangerouslySetInnerHTML={{ __html: props.data.text }} />
                 </ColTextStyled>
             </Row>

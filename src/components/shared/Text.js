@@ -37,8 +37,16 @@ const Text = styled.p`
         font-family: ${props => props.theme.font.family.medium};
     `}
 
+    ${props => props.cinzel && css`
+        font-family: ${props => props.theme.font.family.cinzel};
+    `}
+
+    ${props => props.ruthie && css`
+        font-family: ${props => props.theme.font.family.ruthie};
+    `}
+
     ${props => props.bold && css`
-        font-family: ${props => props.theme.font.family.bold};
+        font-weight: ${props => props.theme.font.weight.bold};
     `}
 
     ${props => props.xl && css`
