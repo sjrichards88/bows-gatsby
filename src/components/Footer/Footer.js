@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import { Container, Row, Col } from "reactstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons"
+import Text from "components/shared/Text"
 
 const FooterStyled = styled.footer`
     background-color: ${props => props.theme.colors.blackOff};
@@ -23,6 +24,12 @@ const FooterStyled = styled.footer`
     ul {
         list-style: none;
         padding-left: 0;
+    }
+
+    .footer-text {
+        a {
+            color: ${props => props.theme.colors.grey5};
+        }
     }
 `
 
@@ -93,10 +100,19 @@ const Footer = () => {
                         </Social>
                     </Col>
                     <Col sm={6} md={3}>
-                        © Bouquets & Bows {new Date().getFullYear()}<br />
+                        © Bouquets & Bows 2004 - {new Date().getFullYear()}<br />
                         All rights reserved <br /><br />
 
                         Website by <a href="https://sjrdesigns.com" target="_blank" rel="noopener noreferrer">SJR Designs</a>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col className="pt-3 text-sm-center footer-text">
+                        <Text sm>
+                            <Link to="/privacy-policy/">Privacy Policy</Link><br className="d-sm-none"/><span className="d-none d-sm-inline">&nbsp;&nbsp;|&nbsp;&nbsp;</span> 
+                            <Link to="/cookie-policy/">Cookie Policy</Link><br className="d-sm-none"/><span className="d-none d-sm-inline">&nbsp;&nbsp;|&nbsp;&nbsp;</span> 
+                            <Link to="/suppliers-registration/">Suppliers Registration</Link>
+                        </Text>
                     </Col>
                 </Row>
             </Container>

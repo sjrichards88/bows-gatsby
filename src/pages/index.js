@@ -1,67 +1,88 @@
 import React from "react"
+import { Row, Col } from "reactstrap"
+import { Link } from "gatsby"
 import Layout from "components/Layout/Layout"
 import LandingSlider from "components/LandingSlider/LandingSlider"
 import TextContainer from "components/shared/TextContainer"
 import Text from "components/shared/Text"
 import ImageWithText from "../components/shared/ImageWithText"
+import ImageBlock from "../components/shared/ImageBlock"
+import ContainerMax from "../components/shared/ContainerMax"
 
 const IndexPage = () => (
   	<Layout>
 		<LandingSlider />
 
 		<TextContainer>
-			{/* <h2>
-			   GET MARRIED IN SICILY - The Perfect Wedding Island!
-			</h2>
-			<h3>
-				Highly Experienced Professional Wedding Planner and Coordinator based in Taormina Sicily
-			</h3> */}
 			<h2>
 				Hello and Welcome to Bouquets and Bows
 			</h2>
-
 			<Text md>
-				I am a highly experienced professional wedding planner and coordinator specialising in the organization of <strong>Bespoke Destination Weddings in Sicily</strong>, and it goes without saying that the most popular Sicilian destination choice is the world famous picturesque town of <strong>Taormina</strong> perched 200 metres above the sea.
+				My name is Liz and I am an experienced professional wedding planner and coordinator specializing in the organisation of <strong>Bespoke Destination Weddings in Sicily</strong> and it goes without saying that the most popular Sicilian destination choice is the world famous picturesque town of <strong>Taormina</strong> perched 200 metres above the sea.
 			</Text>
-
 			<Text md>
-				I am the longest established wedding planner in the whole of the Taormina area. 
-				I live locally, right here in the very heart of Taormina, therefore a 100% personal, hands-on service is guaranteed. I have been planning, organising and styling weddings here in Taormina since 2004 and have a vast knowledge and great experience in this sector, having arranged nearly 300 lovely weddings of all types and sizes in these past sixteen years.
+				I am the longest established wedding planner in the whole of the Taormina area. I live right here in the very heart of Taormina, therefore a 100% personal, hands-on service is guaranteed. 
 			</Text>
-
 			<Text md>
-				Your wedding is a very special and unique event that will leave you with wonderful everlasting memories. My vast experience is fundamental in making the difference that matters to you for a successful destination wedding in Taormina. Enjoy stress-free wedding planning by letting me take care of everything for you.
+				Your wedding is a very special and unique event that will leave you with wonderful everlasting memories. After having had the pleasure of organising and styling nearly 300 lovely weddings of all types and sizes in these past sixteen years, my wealth of knowledge and experience as your Wedding Planner is invaluable and will be fundamental in making the difference that matters to you for a perfect and successful destination wedding in Taormina. 
 			</Text> 
-
-			
+			<Text md>
+				I will work closely with you to understand your vision and bring it to life, looking after all of your wedding arrangements with efficient dedication to exceed your expectations and give you an exceptional experience.
+			</Text> 
 		</TextContainer>
+
+		{/* 6 panels */}
+
+		<ContainerMax>
+			<Row className="pt-4">
+				<Col sm={6} md={4}>
+					<ImageBlock id="0" />
+				</Col>
+				<Col sm={6} md={4}>
+					<ImageBlock id="0" />
+				</Col>
+				<Col sm={6} md={4}>
+					<ImageBlock id="0" />
+				</Col>
+				<Col sm={6} md={4}>
+					<ImageBlock id="0" />
+				</Col>
+				<Col sm={6} md={4}>
+					<ImageBlock id="0" />
+				</Col>
+				<Col sm={6} md={4}>
+					<ImageBlock id="0" />
+				</Col>
+			</Row>
+		</ContainerMax>
+
+		<TextContainer>
+			<Text md>
+				All of my signature weddings from the smallest and simplest to the largest and most lavish are unique events. Everything is tailored to suit your individual requirements and to satisfy your personal needs. You really can have pretty much whatever you like (within reason of course…)
+			</Text>
+		</TextContainer>
+
+
 
 		<ImageWithText id="0" secondary imageRight />
 
 		<ImageWithText id="1" imageLeft />
 
-		<TextContainer>
-			<Text md>
-				All of my weddings from the smallest and simplest to the larger and most lavish are unique events which are tailored to suit your personal requirements with services adapted and modified to suit your personal needs. You really can have pretty much whatever you like (within reason of course…)
-			</Text> 
-		</TextContainer>
-
-
 		<ImageWithText id="2" secondary imageRight />
 
 		<TextContainer>
 			<Text md>
-				I can  work with you to plan your entire event from start to finish, or simply assist you with the legalities and paperwork required for a religious or civil wedding in Taormina, which needs a professional interpreter and a local delegated person to handle things on your behalf. I handle all of the paperwork and administration bureaucracy for my couples and most importantly, ensure that all the legal requirements are respected.
+				I can work with you to plan your entire event from start to finish, or simply assist you with the legalities and paperwork required for a religious or civil wedding in Taormina, which needs a professional interpreter and a local delegated person to handle things on your behalf. I take care of all of the paperwork and administration bureaucracy for my couples and most importantly, ensure that all the legal requirements are respected.
 			</Text> 
 			<Text md>
-				I will be more than happy to supply you with references from the many couples I have assisted in these past years who will be more than happy to vouch for my credibility and excellent service as your personal wedding planner.
+				I will gladly supply you with references from the many couples I have assisted in these past years who will be more than happy to vouch for my credibility and excellent service as your personal wedding planner.
 			</Text>
 			<Text md>
-				I am very proud to say that all of the photographs published here on my website and on my social pages are all from weddings organised by me. 
+				I am very proud to say that all of the photographs published here on my website and on my social pages are all from weddings organised by me.
 			</Text>
 
 			<Text md>
-				Please contact me I sincerely look forward to being of assistance to you. 
+				Please <Link to="/contact/">contact</Link> me I sincerely look forward to being of assistance to you.
 			</Text>
 
 			<Text md cinzel primary xl>

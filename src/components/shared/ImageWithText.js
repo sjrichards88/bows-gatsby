@@ -29,9 +29,18 @@ const ImgStyled = styled(Img)`
         height: 100%;
     }
 `
+
 const ColTextStyled = styled(Col)`
-    background-color: ${props => props.theme.colors.primary};
     position: relative;
+`
+
+const TextWrapper = styled.div`
+    padding: 2rem 1.5rem;
+    color: white;
+    position: relative;
+    z-index: 1;
+    font-size: ${props => props.theme.font.size.md};
+    background-color: ${props => props.theme.colors.primary};
 
     ${props => props.secondary && css`
         background-color: ${props => props.theme.colors.secondary};
@@ -51,25 +60,19 @@ const ColTextStyled = styled(Col)`
     }
 `
 
-const TextWrapper = styled.div`
-    padding: 2rem 1.5rem;
-    color: white;
-    position: relative;
-    z-index: 1;
-    font-size: ${props => props.theme.font.size.md};
-`
-
 const ImageWithText = (props) => {
     return(
         <StyledContainerMax>
-            <Row>
-                <ColStyled lg={{ size: 6, order: props.imageRight ? 2 : 1}} xl={8}>
-                    <ImgStyled fluid={props.data.img.childImageSharp.fluid} alt={props.data.alt} />
-                </ColStyled>
-                <ColTextStyled lg={{ size: 6, order: props.imageRight ? 1 : 2}} xl={4} secondary={props.secondary}>
-                    <TextWrapper dangerouslySetInnerHTML={{ __html: props.data.text }} />
-                </ColTextStyled>
-            </Row>
+            <ContainerMax>
+                <Row>
+                    <ColStyled lg={{ size: 6, order: props.imageRight ? 2 : 1}} xl={8}>
+                        <ImgStyled fluid={props.data.img.childImageSharp.fluid} alt={props.data.alt} />
+                    </ColStyled>
+                    <ColTextStyled lg={{ size: 6, order: props.imageRight ? 1 : 2}} xl={4} className="p-lg-0">
+                        <TextWrapper dangerouslySetInnerHTML={{ __html: props.data.text }} secondary={props.secondary} />
+                    </ColTextStyled>
+                </Row>
+            </ContainerMax>
         </StyledContainerMax>
     )
 }

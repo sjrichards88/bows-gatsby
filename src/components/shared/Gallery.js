@@ -36,7 +36,6 @@ const Thumbnail = styled.a`
 `
 
 const Gallery = (props) => {
-    console.log(props)
     const images = props.images.nodes.map((image, i) => {
         return(
             <Thumbnail href={image.img.publicURL} data-attribute="SRL" key={i}>
