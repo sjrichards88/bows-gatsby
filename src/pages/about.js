@@ -46,7 +46,7 @@ const AboutPage = () => {
 			<ContainerMaxStyled>
 				<Row>
 					<Col md={6}>
-						<img src="http://placehold.it/800x800" alt="" />
+						<img src="https://placehold.it/800x800" alt="" />
 					</Col>
 					<Col md={6}>
 						<Text>
@@ -85,7 +85,7 @@ const AboutPage = () => {
 						</Text>
 					</Col>
 					<Col md={6}>
-						<img src="http://placehold.it/800x500" alt="" />
+						<img src="https://placehold.it/800x500" alt="" />
 					</Col>
 				</Row>
 			</ContainerMaxStyled>
