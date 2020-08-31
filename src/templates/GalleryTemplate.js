@@ -1,17 +1,12 @@
 import React from "react"
 import Layout from "components/Layout/Layout"
 import Gallery from "components/shared/Gallery"
+import PageHeader from "components/shared/PageHeader"
 
 const GalleryPage = (props) => {
     return(
         <Layout>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+            <PageHeader page="taormina" title="Real Weddings" />
 
             <Gallery name={props.pageContext.slug} />
         </Layout>

@@ -1,5 +1,5 @@
 import React from "react"
-import { Row, Col } from "reactstrap"
+import { Container, Row, Col } from "reactstrap"
 import styled from "styled-components"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
@@ -23,8 +23,9 @@ const AboutPage = () => {
         query {
             aboutme: file(relativePath: { eq: "best-day-of-our-lives.jpg" }) {
 				childImageSharp {
-					fluid {
+					fluid(maxWidth: 700, quality: 100) {
 						...GatsbyImageSharpFluid_withWebp_noBase64
+						...GatsbyImageSharpFluidLimitPresentationSize
 					}
 				}
             }
@@ -33,7 +34,7 @@ const AboutPage = () => {
 	
 	return(
 		<Layout>
-			<PageHeader page="about" title="About me" />
+			<PageHeader page="about" title="About me" tall />
 			
 			<TextContainer thin>
 				<Text md>
@@ -91,10 +92,15 @@ const AboutPage = () => {
 
 			{/* Best day o f lives phoho */}
 
-			<ContainerMaxStyled>
-				
-				<Img fluid={data.aboutme.childImageSharp.fluid} alt="Best Day of Our Lives" className="mb-4 "/>
+			<Container>
+				<Row className="justify-content-center">
+					<Col md={9}>
+						<Img fluid={data.aboutme.childImageSharp.fluid} alt="Best Day of Our Lives" className="mb-4 "/>
+					</Col>
+				</Row>
+			</Container>
 
+			<ContainerMaxStyled className="text-center">
 				<Text>
 					All of the photographs used throughout my website and on my social pages are all from weddings I have had the pleasure of organising here in the Taormina area. So a huge thank you to my wonderful photographers who have captured the true essence of Weddings in Taormina and to all of my lovely couples for allowing me use their beautiful photographs here and elsewhere. 
 				</Text>

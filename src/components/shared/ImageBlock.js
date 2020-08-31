@@ -80,7 +80,7 @@ export default (props) => (
                         }
                     }
                 }
-                logo: file(relativePath: { eq: "logov2.png" }) {
+                logo: file(relativePath: { eq: "logo.png" }) {
                     childImageSharp {
                         resize(width: 70, cropFocus: CENTER, quality: 100)  {
                             src

@@ -15,7 +15,7 @@ import classNames from "classnames"
 
 import { media } from "utils/Media"
 
-import logo from "images/logov3.jpg"
+import logo from "images/logo.png"
 import taglineBefore from "images/tagline-before.png"
 import taglineAfter from "images/tagline-after.png"
 
