@@ -100,7 +100,7 @@ const Footer = () => {
                         </Social>
                     </Col>
                     <Col sm={6} md={3}>
-                        © Bouquets & Bows 2004 - {new Date().getFullYear()}<br />
+                        © Bouquets and Bows 2004 - {new Date().getFullYear()}<br />
                         All rights reserved <br /><br />
 
                         Website by <a href="https://sjrdesigns.com" target="_blank" rel="noopener noreferrer">SJR Designs</a>
