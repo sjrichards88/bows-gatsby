@@ -2,7 +2,42 @@
     {
         "id": "0",
         "link": "",
-        "img": "../images/homeslider/14.jpg",
+        "img": "../images/imageBlocks/1.jpg",
+        "alt": "",
+        "title": "A Title"
+    },
+    {
+        "id": "1",
+        "link": "",
+        "img": "../images/imageBlocks/2.jpg",
+        "alt": "",
+        "title": "A Title"
+    },
+    {
+        "id": "2",
+        "link": "",
+        "img": "../images/imageBlocks/3.jpg",
+        "alt": "",
+        "title": "A Title"
+    },
+    {
+        "id": "3",
+        "link": "",
+        "img": "../images/imageBlocks/4.jpg",
+        "alt": "",
+        "title": "A Title"
+    },
+    {
+        "id": "4",
+        "link": "",
+        "img": "../images/imageBlocks/7.JPG",
+        "alt": "",
+        "title": "A Title"
+    },
+    {
+        "id": "5",
+        "link": "",
+        "img": "../images/imageBlocks/6.jpg",
         "alt": "",
         "title": "A Title"
     }

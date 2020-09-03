@@ -32,7 +32,7 @@ const SliderStyled = styled(Slider)`
     .slick-list,
     .slick-track,
     .slick-slide {
-        height: 100%;
+        height: 100vh;
     }
 
     .slider-image-mobile {
@@ -114,7 +114,7 @@ class LandingSlider extends Component {
 
     render() {
         const settings = {
-            dots: false,
+            dots: true,
             autoplaySpeed: 5000,
             infinite: true,
             speed: 1000,

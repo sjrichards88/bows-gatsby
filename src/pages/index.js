@@ -36,19 +36,19 @@ const IndexPage = () => (
 					<ImageBlock id="0" />
 				</Col>
 				<Col sm={6} md={4}>
-					<ImageBlock id="0" />
+					<ImageBlock id="1" />
 				</Col>
 				<Col sm={6} md={4}>
-					<ImageBlock id="0" />
+					<ImageBlock id="2" />
 				</Col>
 				<Col sm={6} md={4}>
-					<ImageBlock id="0" />
+					<ImageBlock id="3" />
 				</Col>
 				<Col sm={6} md={4}>
-					<ImageBlock id="0" />
+					<ImageBlock id="4" />
 				</Col>
 				<Col sm={6} md={4}>
-					<ImageBlock id="0" />
+					<ImageBlock id="5" />
 				</Col>
 			</Row>
 		</ContainerMax>
