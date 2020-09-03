@@ -18,13 +18,13 @@ const IndexPage = () => (
 				Hello and Welcome to Bouquets and Bows
 			</h2>
 			<Text md>
-				My name is Liz and I am an experienced professional wedding planner and coordinator specializing in the organisation of <strong>Bespoke Destination Weddings in Sicily</strong> and it goes without saying that the most popular Sicilian destination choice is the world famous picturesque town of <strong>Taormina</strong> perched 200 metres above the sea.
+				Hello! I am Liz Gaan an experienced professional wedding planner and coordinator specializing in the organisation of <strong>Bespoke Destination Weddings in Sicily</strong> and it goes without saying that the most popular Sicilian destination choice is the world famous picturesque town of <strong>Taormina</strong> perched 200 metres above the sea.
 			</Text>
 			<Text md>
-				I am the longest established wedding planner in the whole of the Taormina area. I live right here in the very heart of Taormina, therefore a 100% personal, hands-on service is guaranteed. 
+				Your wedding is a very special and unique event that will leave you with wonderful everlasting memories, so you deserve only the very best. I am the longest established wedding planner in the whole of the Taormina area and I live right here in the very heart of Taormina, therefore a 100% personal, hands-on service is guaranteed.
 			</Text>
 			<Text md>
-				Your wedding is a very special and unique event that will leave you with wonderful everlasting memories. After having had the pleasure of organising and styling nearly 300 lovely weddings of all types and sizes in these past sixteen years, my wealth of knowledge and experience as your Wedding Planner is invaluable and will be fundamental in making the difference that matters to you for a perfect and successful destination wedding in Taormina. I will work closely with you to understand your vision and bring it to life, looking after all of your wedding arrangements with efficient dedication to exceed your expectations and give you an exceptional experience.
+				Having had the pleasure of organizing and styling nearly 300 lovely weddings of all types and sizes in these past sixteen years, my wealth of knowledge and experience as your wedding planner is invaluable and will be fundamental in making the difference that matters to you for a perfect and successful destination wedding in Taormina. I will work closely with you to understand your vision and bring it to life, looking after all of your wedding arrangements with efficient dedication to exceed your expectations and ensure that your special day is an exceptional experience.
 			</Text> 
 		</TextContainer>
 

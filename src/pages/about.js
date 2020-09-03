@@ -34,7 +34,7 @@ const AboutPage = () => {
 	
 	return(
 		<Layout>
-			<PageHeader page="about" title="About me" tall />
+			<PageHeader page="about" title="About Me" tall />
 			
 			<TextContainer thin>
 				<Text md>

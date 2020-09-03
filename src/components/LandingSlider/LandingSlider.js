@@ -9,9 +9,9 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons"
 import scrollToElement from "scroll-to-element"
 
 const Wrapper = styled.div`
-    max-height: 100vh;
+    /* max-height: 100vh; */
     width: 101%;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
     margin-bottom: 1.5rem;
 
@@ -33,6 +33,10 @@ const SliderStyled = styled(Slider)`
     .slick-track,
     .slick-slide {
         height: 100vh;
+    }
+
+    .gatsby-image-wrapper {
+        /* max-height: 100vh; */
     }
 
     .slider-image-mobile {
@@ -114,14 +118,14 @@ class LandingSlider extends Component {
 
     render() {
         const settings = {
-            dots: true,
+            dots: false,
             autoplaySpeed: 5000,
             infinite: true,
             speed: 1000,
             slidesToShow: 1,
             slidesToScroll: 1,
             draggable: false,
-            fade: true,
+            fade: false,
             autoplay: 1,
             adaptiveHeight: false,
             lazyload: true,
