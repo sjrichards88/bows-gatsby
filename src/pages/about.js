@@ -47,7 +47,7 @@ const AboutPage = () => {
 			
 			<TextContainer thin>
 				<Text md>
-					<strong>Weddings in Taormina by Bouquets and Bows</strong> is independently run by Liz Gaan (Spartà) a professional and established bilingual wedding and event planner based in Taormina
+					<strong>Weddings in Taormina by Bouquets and Bows</strong> is independently run by Liz Gaan a professional and established bilingual wedding and event planner based in Taormina
 				</Text>
 			
 			</TextContainer>
@@ -89,7 +89,7 @@ const AboutPage = () => {
 				</Text>
 
 				<Text>
-					I have greatly contributed to the design and content of this website, so I hope you enjoy browsing around it. I wanted it to be interesting and easy to navigate, because I think that this is a good reflection of  myself and my service which like my site, is straightforward, honest and useful, with no hidden surprises!
+					I have greatly contributed to the design and content of this website, so I hope you enjoy browsing around it. I wanted it to be interesting and easy to navigate, because I think that this is a good reflection of  myself and my service which like my site, is straightforward and honest, with no hidden surprises!
 				</Text>
 
 				<Text>
