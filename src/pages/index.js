@@ -29,7 +29,7 @@ const IndexPage = () => (
 		</TextContainer>
 
 		{/* 6 panels */}
-		<h3>
+		<h3 className="text-center pt-4">
 			My Services
 		</h3>
 		<ContainerMax>

@@ -8,17 +8,25 @@ const ImageWrap = styled.div`
     display: block;
     padding: .5rem;
     box-shadow: 0 1px 3px 1px rgba(0,0,0,.15);
+    text-align: center;
+    color: ${props => props.theme.colors.primary};
     font-family: ${props => props.theme.font.family.cinzel};
     text-decoration: none;
     margin-bottom: 2rem;
+    /* padding-bottom: 3rem; */
+
+    p {
+        padding: 3rem 0 1rem 0;
+        font-size: ${props => props.theme.font.size.lg};
+    }
 
     .logo {
         border-radius: 50%;
         background-color: #fff;
-        position: relative;
+        position: absolute;
         transform: translateX(-50%);
         left: 50%;
-        top: -35px;
+        bottom: 4rem;
         padding: 17px;
         width: 70px;
         transition: .3s all ease-in-out;
