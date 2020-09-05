@@ -55,6 +55,7 @@ const ImageBlock = (props) => {
                 <Img fluid={props.data.img.childImageSharp.fluid} alt={props.data.alt} />
             </div>
             <img src={props.logo.childImageSharp.resize.src} alt="" className="logo" />
+            <p>{props.data.title}</p>
         </ImageWrap>        
     )
 }

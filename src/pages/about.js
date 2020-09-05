@@ -65,7 +65,7 @@ const AboutPage = () => {
 				</Text>
 
 				<Text>
-					I was born and raised in London of Italian descent Italian. In my late teens, bored with my job in Barclays Bank, I got the travel bug and after a couple of worldwide trips eventually ended up in Sicily, where I permanently settled. Having lived here in Sicily for more than 30 years, I now consider myself to be a true "local" and I have acquired an excellent in-depth knowledge of this island and of Taormina in particular.
+					I was born and raised in London of Italian descent. In my late teens, bored with my job in Barclays Bank, I got the travel bug and after a couple of worldwide trips eventually ended up in Sicily, where I permanently settled. Having lived here in Sicily for more than 30 years, I now consider myself to be a true "local" and I have acquired an excellent in-depth knowledge of this island and of Taormina in particular.
 				</Text>
 
 				<Text>

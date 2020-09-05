@@ -29,7 +29,9 @@ const IndexPage = () => (
 		</TextContainer>
 
 		{/* 6 panels */}
-
+		<h3>
+			My Services
+		</h3>
 		<ContainerMax>
 			<Row className="pt-4">
 				<Col sm={6} md={4}>
