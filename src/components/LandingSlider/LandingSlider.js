@@ -125,7 +125,7 @@ class LandingSlider extends Component {
             slidesToShow: 1,
             slidesToScroll: 1,
             draggable: false,
-            fade: false,
+            fade: true,
             autoplay: 1,
             adaptiveHeight: false,
             lazyload: true,

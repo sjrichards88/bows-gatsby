@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import { media } from "utils/Media"
 import styled from "styled-components"
 
 const ImageWrap = styled.div`
@@ -16,8 +17,12 @@ const ImageWrap = styled.div`
     /* padding-bottom: 3rem; */
 
     p {
-        padding: 3rem 0 1rem 0;
-        font-size: ${props => props.theme.font.size.lg};
+        padding: 2rem 0 1rem 0;
+        
+        @media ${media.lg} {
+            padding: 3rem 0 1rem 0;
+            font-size: ${props => props.theme.font.size.lg};
+        }
     }
 
     .logo {
@@ -26,10 +31,15 @@ const ImageWrap = styled.div`
         position: absolute;
         transform: translateX(-50%);
         left: 50%;
-        bottom: 4rem;
+        bottom: 3rem;
         padding: 17px;
-        width: 70px;
+        width: 60px;
         transition: .3s all ease-in-out;
+
+        @media ${media.lg} {
+            width: 70px;
+            bottom: 4rem;
+        }
     }
 
     .img-wrapper {
