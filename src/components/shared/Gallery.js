@@ -1,31 +1,21 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
+import LazyLoad from "react-lazyload"
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox"
+import { Row, Col } from "reactstrap"
 import ContainerMax from "components/shared/ContainerMax"
-import { media } from "utils/Media"
 
 const Thumbnail = styled.a`
-    margin: 0 .5rem .5rem;
-    display: inline-block;
+    margin: 0 .5rem 1rem;
+    display: block;
     overflow: hidden;
-    width: calc(100% - 1rem);
-
-    @media (min-width: 400px) {
-        width: calc(50% - 1rem);
-    }
-
-    @media ${media.md} {
-        width: calc(33.3% - 1rem);
-    }
-
-    @media ${media.lg} {
-        width: calc(25% - 1rem);
-    }
 
     img {
         transition: all .4s ease;
         transform: scale(1);
+        margin: 0 auto;
+        display: block;
     }
 
     &:hover {
@@ -38,9 +28,13 @@ const Thumbnail = styled.a`
 const Gallery = (props) => {
     const images = props.images.nodes.map((image, i) => {
         return(
-            <Thumbnail href={image.img.publicURL} data-attribute="SRL" key={i}>
-                <img src={image.img.childImageSharp.resize.src} alt="" />
-            </Thumbnail>
+            <Col xs={6} sm={6} md={4} lg={3} key={i} className="px-0">
+                <LazyLoad>
+                    <Thumbnail href={image.img.large.resize.src} >
+                        <img src={image.img.thumb.resize.src} alt=""/>
+                    </Thumbnail>
+                </LazyLoad>
+            </Col>
         )
     })
 
@@ -54,7 +48,9 @@ const Gallery = (props) => {
         <SimpleReactLightbox>
             <ContainerMax>
                 <SRLWrapper options={options}>
-                    {images}
+                    <Row>
+                        {images}
+                    </Row>
                 </SRLWrapper>
             </ContainerMax>
         </SimpleReactLightbox>
@@ -70,9 +66,13 @@ export default (props) => {
                     featured: allGalleryJson {
                         nodes {
                             img {
-                                publicURL
-                                childImageSharp {
+                                thumb: childImageSharp {
                                     resize(width: 415, cropFocus: CENTER, quality: 100)  {
+                                        src
+                                    }
+                                }
+                                large: childImageSharp {
+                                    resize(width: 1500, cropFocus: CENTER, quality: 100)  {
                                         src
                                     }
                                 }
@@ -80,19 +80,6 @@ export default (props) => {
                             caption
                         }
 
-                    }
-                    flowers: allGalleryFlowersJson {
-                        nodes {
-                            img {
-                                publicURL
-                                childImageSharp {
-                                    resize(width: 415, cropFocus: CENTER, quality: 100)  {
-                                        src
-                                    }
-                                }
-                            }
-                            caption
-                        }
                     }
                 }
             `}
@@ -102,3 +89,21 @@ export default (props) => {
         />
     )
 }
+
+/*
+
+                    // flowers: allGalleryFlowersJson {
+                    //     nodes {
+                    //         img {
+                    //             publicURL
+                    //             childImageSharp {
+                    //                 resize(width: 415, cropFocus: CENTER, quality: 100)  {
+                    //                     src
+                    //                 }
+                    //             }
+                    //         }
+                    //         caption
+                    //     }
+                    // }
+
+                    */
