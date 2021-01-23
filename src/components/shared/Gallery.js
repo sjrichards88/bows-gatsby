@@ -31,7 +31,7 @@ const Gallery = (props) => {
             <Col xs={6} sm={6} md={4} lg={3} key={i} className="px-0">
                 <LazyLoad>
                     <Thumbnail href={image.img.large.resize.src} >
-                        <img src={image.img.thumb.resize.src} alt=""/>
+                        <img src={image.img.thumb.resize.src} alt={image.caption} />
                     </Thumbnail>
                 </LazyLoad>
             </Col>
