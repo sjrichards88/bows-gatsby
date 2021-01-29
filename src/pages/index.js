@@ -83,10 +83,6 @@ const IndexPage = () => (
 			<Text md>
 				Please <Link to="/contact/">contact</Link> me I sincerely look forward to being of assistance to you.
 			</Text>
-
-			<Text md cinzel primary xl>
-				Bouquets and Bows “Experience Shows”
-			</Text>
 		</TextContainer>
   	</Layout>
 )

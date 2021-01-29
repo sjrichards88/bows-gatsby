@@ -6,7 +6,7 @@ import PageHeader from "components/shared/PageHeader"
 const GalleryPage = (props) => {
     return(
         <Layout>
-            <PageHeader page="taormina" title="Real Weddings" />
+            <PageHeader page="gallery" title="Gallery" />
 
             <Gallery name={props.pageContext.slug} />
         </Layout>

@@ -5,8 +5,12 @@ import styled, { css } from "styled-components"
 import { media } from "utils/Media"
 
 import aboutImg from "images/banners/banner-about.jpg"
-import weddingsImg from "images/banners/real-weddings.jpg"
 import taorminaImg from "images/banners/taormina.jpg"
+import contactImg from "images/banners/contact-me.jpg"
+import privacyImg from "images/banners/privacy.jpg"
+import cookiesImg from "images/banners/cookies.jpg"
+import galleryImg from "images/banners/gallery.jpg"
+import realwedddingsImg from "images/banners/real-weddings.jpg"
 
 const Wrapper = styled.div`
     position: relative;
@@ -38,16 +42,44 @@ const InnerWrapper = styled.div`
         }
     `}
 
+    ${props => props.taller && css`
+        @media ${media.lg} {
+            min-height: 600px;
+        }
+    `}
+
+    ${props => props.taller3 && css`
+        @media ${media.lg} {
+            min-height: 630px;
+        }
+    `}
+
     background-size: cover;
     background-position: center center;
     background-image: url("${aboutImg}");
 
-    ${props => props.page === "weddings" && css`
-        background-image: url("${weddingsImg}");
-    `}
-
     ${props => props.page === "taormina" && css`
         background-image: url("${taorminaImg}");
+    `}
+
+    ${props => props.page === "contact" && css`
+        background-image: url("${contactImg}");
+    `}
+
+    ${props => props.page === "privacy" && css`
+        background-image: url("${privacyImg}");
+    `}
+
+    ${props => props.page === "cookies" && css`
+        background-image: url("${cookiesImg}");
+    `}
+
+    ${props => props.page === "gallery" && css`
+        background-image: url("${galleryImg}");
+    `}
+
+    ${props => props.page === "realweddings" && css`
+        background-image: url("${realwedddingsImg}");
     `}
 
 `
@@ -88,7 +120,7 @@ export const imageFragment = graphql`
 const PageHeader = (props) => {
     return( 
         <Wrapper>
-            <InnerWrapper tall={props.tall} page={props.page}>
+            <InnerWrapper tall={props.tall} taller={props.taller} taller3={props.taller3} page={props.page}>
                 <WrapperText>
                     <h1>{props.title}</h1>
                 </WrapperText>

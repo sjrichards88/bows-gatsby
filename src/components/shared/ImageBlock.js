@@ -68,7 +68,7 @@ const ImageWrap = styled.div`
 
 const ImageBlock = (props) => {
     return(
-        <ImageWrap  as={props.to ? Link : "div"}>
+        <ImageWrap as={props.to ? Link : "div"}>
             <div className="img-wrapper">
                 <Img fluid={props.data.img.childImageSharp.fluid} alt={props.data.alt} />
             </div>
@@ -113,7 +113,7 @@ export default (props) => (
             return data.allImageBlocksJson.edges.map(({node}, i) => {
                 if (id && id === node.id) {
                     return (
-                        <ImageBlock logo={data.logo} data={node} {...newProps} />
+                        <ImageBlock logo={data.logo} data={node} {...newProps} key={i} />
                     )
                 } else return ""
             })

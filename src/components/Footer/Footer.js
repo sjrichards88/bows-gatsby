@@ -5,6 +5,7 @@ import { Container, Row, Col } from "reactstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons"
 import Text from "components/shared/Text"
+import TextContainer from "components/shared/TextContainer"
 
 const FooterStyled = styled.footer`
     background-color: ${props => props.theme.colors.blackOff};
@@ -52,71 +53,78 @@ const Social = styled.ul`
 const Footer = () => {
 
     return(
-        <FooterStyled>
-            <Container>
-                <Row>
-                    <Col sm={6} md={3} className="pb-3">
-                        <FooterTitle>Menu</FooterTitle>
-                        <nav>
-                            <ul>
+        <>
+            <TextContainer>
+                <Text md cinzel primary xl>
+                    Bouquets and Bows “Experience Shows”
+                </Text>
+            </TextContainer>
+            <FooterStyled>
+                <Container>
+                    <Row>
+                        <Col sm={6} md={3} className="pb-3">
+                            <FooterTitle>Menu</FooterTitle>
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <Link to="/">Home</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/about/">About</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/contact/">Contact</Link>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </Col>
+                        <Col sm={6} md={3} className="pb-3">
+                            <FooterTitle>Contact</FooterTitle>
+                            <p>
+                                Email: <a href="mailto:info@bouquetsandbows.com">info@bouquetsandbows.com</a> <br/>
+                                Phone: 123456789 <br/>
+                                Fax: 123456789
+                            </p> 
+                        </Col>
+                        <Col sm={6} md={3} className="pb-3">
+                            <FooterTitle>Social</FooterTitle>
+                            <Social>
                                 <li>
-                                    <Link to="/">Home</Link>
+                                    <a href="https://facebook.com">
+                                        <FontAwesomeIcon icon={faFacebookF} />
+                                    </a>
                                 </li>
                                 <li>
-                                    <Link to="/about/">About</Link>
+                                    <a href="https://twitter.com">
+                                        <FontAwesomeIcon icon={faTwitter} />
+                                    </a>
                                 </li>
                                 <li>
-                                    <Link to="/contact/">Contact</Link>
+                                    <a href="https://instagram.com">
+                                        <FontAwesomeIcon icon={faInstagram} />
+                                    </a>
                                 </li>
-                            </ul>
-                        </nav>
-                    </Col>
-                    <Col sm={6} md={3} className="pb-3">
-                        <FooterTitle>Contact</FooterTitle>
-                        <p>
-                            Email: <a href="mailto:info@bouquetsandbows.com">info@bouquetsandbows.com</a> <br/>
-                            Phone: 123456789 <br/>
-                            Fax: 123456789
-                        </p> 
-                    </Col>
-                    <Col sm={6} md={3} className="pb-3">
-                        <FooterTitle>Social</FooterTitle>
-                        <Social>
-                            <li>
-                                <a href="https://facebook.com">
-                                    <FontAwesomeIcon icon={faFacebookF} />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com">
-                                    <FontAwesomeIcon icon={faTwitter} />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://instagram.com">
-                                    <FontAwesomeIcon icon={faInstagram} />
-                                </a>
-                            </li>
-                        </Social>
-                    </Col>
-                    <Col sm={6} md={3}>
-                        © Bouquets and Bows 2004 - {new Date().getFullYear()}<br />
-                        All rights reserved <br /><br />
+                            </Social>
+                        </Col>
+                        <Col sm={6} md={3}>
+                            © Bouquets and Bows 2004 - {new Date().getFullYear()}<br />
+                            All rights reserved <br /><br />
 
-                        Website by <a href="https://sjrdesigns.com" target="_blank" rel="noopener noreferrer">SJR Designs</a>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col className="pt-3 text-sm-center footer-text">
-                        <Text sm>
-                            <Link to="/privacy-policy/">Privacy Policy</Link><br className="d-sm-none"/><span className="d-none d-sm-inline">&nbsp;&nbsp;|&nbsp;&nbsp;</span> 
-                            <Link to="/cookie-policy/">Cookie Policy</Link><br className="d-sm-none"/><span className="d-none d-sm-inline">&nbsp;&nbsp;|&nbsp;&nbsp;</span> 
-                            <Link to="/suppliers-registration/">Suppliers Registration</Link>
-                        </Text>
-                    </Col>
-                </Row>
-            </Container>
-        </FooterStyled>
+                            Website by <a href="https://sjrdesigns.com" target="_blank" rel="noopener noreferrer">SJR Designs</a>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col className="pt-3 text-sm-center footer-text">
+                            <Text sm>
+                                <Link to="/privacy-policy/">Privacy Policy</Link><br className="d-sm-none"/><span className="d-none d-sm-inline">&nbsp;&nbsp;|&nbsp;&nbsp;</span> 
+                                <Link to="/cookie-policy/">Cookie Policy</Link><br className="d-sm-none"/><span className="d-none d-sm-inline">&nbsp;&nbsp;|&nbsp;&nbsp;</span> 
+                                <Link to="/suppliers-registration/">Suppliers Registration</Link>
+                            </Text>
+                        </Col>
+                    </Row>
+                </Container>
+            </FooterStyled>
+        </>
     )
 }
 

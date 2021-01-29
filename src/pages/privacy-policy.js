@@ -7,7 +7,7 @@ import Text from "components/shared/Text"
 const PrivacyPage = () => {
     return(
         <Layout>
-            <PageHeader page="about" title="Privacy Policy" />
+            <PageHeader page="privacy" title="Privacy Policy" taller />
 
             <TextContainer>
                 <Text md>

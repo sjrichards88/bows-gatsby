@@ -54,7 +54,7 @@ const AboutPage = () => {
 
 			<ContainerMaxStyled className="pt-4">
 
-				<Img fluid={data.about.childImageSharp.fluid} alt="" className="mb-4 " style={{ float: "left", width: "40%", maxHeight: "100%", margin: "0 2rem .5rem 0" }} />
+				<Img fluid={data.about.childImageSharp.fluid} alt="" className="mb-4 " style={{ float: "left", width: "35%", maxHeight: "100%", margin: "0 2rem .5rem 0" }} />
 
 				<Text>
 					Dear Visitors, 
@@ -81,7 +81,7 @@ const AboutPage = () => {
 				</Text>
 
 				<Text>
-					Every single wedding and each and every couple I work with are very special to me and are all treated with my utmost dedication. My goal is to always exceed expectations. Wedding Planning is not just a job to me it is my life. I am extremely passionate about both my profession and Taormina. I am sure you will get to love Sicily as much as I do, and find Taormina to be the perfect choice for your very special and unique Destination Wedding.
+					Every single wedding and each and every couple I work with are very special to me and are all treated with my utmost dedication. My goal is to always exceed expectations. Wedding Planning is not just a job to me, it is my life. I am extremely passionate about both my profession and Taormina. I am sure you will get to love Sicily as much as I do, and find Taormina to be the perfect choice for your very special and unique Destination Wedding.
 				</Text>
 
 				<Text>
@@ -93,7 +93,7 @@ const AboutPage = () => {
 				</Text>
 
 				<Text>
-					I hope to hear from you soon and look forward to making your acquaintance. to arrange a beautiful and memorable wedding day.
+					I hope to hear from you soon and look forward to making your acquaintance to arrange a beautiful and memorable wedding day.
 				</Text>
 
 				<Text>
@@ -105,11 +105,6 @@ const AboutPage = () => {
 					Liz  
 				</Text>
 			</ContainerMaxStyled>
-			<Container>
-				<Text md center cinzel primary xl>
-					Bouquets and Bows “Experience Shows”
-				</Text>
-			</Container>
 		</Layout>
 	)
 }

@@ -7,7 +7,7 @@ import Text from "components/shared/Text"
 const CookiesPage = () => {
     return(
         <Layout>
-            <PageHeader page="about" title="Cookie Policy" />
+            <PageHeader page="cookies" title="Cookie Policy" taller />
 
             <TextContainer>
                 <Text md>

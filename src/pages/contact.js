@@ -35,8 +35,23 @@ const ContactPage = () => {
 	
 	return(
 		<Layout>
-			<PageHeader page="about" title="Contact" tall />
-			<Img fluid={data.aboutme.childImageSharp.fluid} alt="Best Day of Our Lives" className="my-4 "/>
+			<PageHeader page="contact" title="Contact Me" taller3 />
+			<TextContainer>
+				<Text md>
+					I hope you have enjoyed browsing around my website
+				</Text>
+				<Text md>
+					Please feel free contact me with a few details about yourselves and the type of wedding ceremony you are interested in, preferred period and approximate number of guests etc and I will be happy to send you some information to get the ball rolling and set up a one to one consultation as required
+				</Text>
+				<Text md>
+					Looking forward to hearing from you and being of assistance<br/><br/>
+
+					Liz<br/><br/>
+
+					<a href="mailto:liz@bouquetsandbows.com">liz@bouquetsandbows.com</a>
+				</Text> 
+			</TextContainer>
+			{/* <Img fluid={data.aboutme.childImageSharp.fluid} alt="Best Day of Our Lives" className="my-4 "/> */}
 		</Layout>
 	)
 }

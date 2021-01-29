@@ -108,7 +108,7 @@ export default (props) => (
             return data.allImageWithTextJson.edges.map(({node}, i) => {
                 if (props.id && props.id === node.id) {
                     return (
-                        <ImageWithText data={node} {...props} />
+                        <ImageWithText data={node} {...props} key={i} />
                     )
                 } else return ""
             })
