@@ -1,23 +1,30 @@
 [    
     {
-        "img": "../images/homeslider/1.jpg"
+        "img": "../images/homeslider/1.jpg",
+        "imgmob": "../images/homeslider/1-mob.jpg"
     },
     {
-        "img": "../images/homeslider/2.jpg"
+        "img": "../images/homeslider/2.jpg",
+        "imgmob": "../images/homeslider/2-mob.jpg"
     },
     {
-        "img": "../images/homeslider/3.jpg"
+        "img": "../images/homeslider/3.jpg",
+        "imgmob": "../images/homeslider/3-mob.jpg"
     },
     {
-        "img": "../images/homeslider/4.jpg"
+        "img": "../images/homeslider/4.jpg",
+        "imgmob": "../images/homeslider/4-mob.jpg"
     },
     {
-        "img": "../images/homeslider/5.jpg"
+        "img": "../images/homeslider/5.jpg",
+        "imgmob": "../images/homeslider/5-mob.jpg"
     },
     {
-        "img": "../images/homeslider/6.jpg"
+        "img": "../images/homeslider/6.jpg",
+        "imgmob": "../images/homeslider/6-mob.jpg"
     },
     {
-        "img": "../images/homeslider/8.jpg"
+        "img": "../images/homeslider/7.jpg",
+        "imgmob": "../images/homeslider/7-mob.jpg"
     }
 ]
