@@ -9,9 +9,9 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons"
 import scrollToElement from "scroll-to-element"
 
 const Wrapper = styled.div`
-    /* max-height: 100vh; */
+    max-height: 100vh;
     width: 101%;
-    /* overflow: hidden; */
+    overflow: hidden;
     position: relative;
     margin-bottom: 1.5rem;
 
@@ -22,29 +22,29 @@ const Wrapper = styled.div`
 `
 
 const SliderStyled = styled(Slider)`
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
     width: 100%;
     height: 100%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 
     .slick-list,
     .slick-track,
     .slick-slide {
-        height: 100vh;
+        /* height: 100vh; */
     }
 
     .gatsby-image-wrapper {
-        max-height: 100vh;
+        /* max-height: 100vh; */
     }
 
     .slider-image-mobile {
-        position: absolute !important;
+        /* position: absolute !important;
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 100%; */
     }
 
 `
@@ -67,6 +67,10 @@ const WrapperText = styled.div`
         margin: 0;
 
         @media ${media.md} {
+            font-size: 65px;
+        }
+        
+        @media ${media.lg} {
             font-size: 85px;
         }
     }
