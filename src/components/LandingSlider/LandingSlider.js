@@ -22,12 +22,12 @@ const Wrapper = styled.div`
 `
 
 const SliderStyled = styled(Slider)`
-    /* position: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     width: 100%;
     height: 100%;
-    transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
 
     .slick-list,
     .slick-track,
@@ -36,15 +36,15 @@ const SliderStyled = styled(Slider)`
     }
 
     .gatsby-image-wrapper {
-        /* max-height: 100vh; */
+        max-height: 100vh;
     }
 
     .slider-image-mobile {
-        /* position: absolute !important;
+        position: absolute !important;
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%; */
+        height: 100%;
     }
 
 `
