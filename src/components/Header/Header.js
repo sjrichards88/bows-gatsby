@@ -255,7 +255,7 @@ class Header extends Component {
                                         <LinkStyled to="/gallery/" activeClassName="active">Gallery</LinkStyled>
                                     </NavItem>
                                     <NavItem>
-                                        <LinkStyled to="/real-weddings/" activeClassName="active">Weddings</LinkStyled>
+                                        <LinkStyled to="/real-weddings/" activeClassName="active">Real Weddings</LinkStyled>
                                     </NavItem>
                                     <NavItem>
                                         <LinkStyled to="/contact/" activeClassName="active">Contact</LinkStyled>

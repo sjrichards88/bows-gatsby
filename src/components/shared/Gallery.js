@@ -26,7 +26,7 @@ const Thumbnail = styled.a`
 `
 
 const Gallery = (props) => {
-    const images = props.images.nodes.map((image, i) => {
+    const images = props.images.map((image, i) => {
         return(
             <Col xs={6} sm={6} md={4} lg={3} key={i} className="px-0">
                 <LazyLoad>
@@ -58,52 +58,43 @@ const Gallery = (props) => {
 }
 
 export default (props) => {
-    console.log(props.name)
     return(
         <StaticQuery
             query={graphql`
                 query {
-                    featured: allGalleryJson {
-                        nodes {
-                            img {
-                                thumb: childImageSharp {
-                                    resize(width: 415, cropFocus: CENTER, quality: 100)  {
-                                        src
+                    allGalleriesJson {
+                        edges {
+                            node {
+                                slug
+                                images {
+                                    img {
+                                        thumb: childImageSharp {
+                                            resize(width: 415, cropFocus: CENTER, quality: 100)  {
+                                                src
+                                            }
+                                        }
+                                        large: childImageSharp {
+                                            resize(width: 1500, cropFocus: CENTER, quality: 100)  {
+                                                src
+                                            }
+                                        }
                                     }
-                                }
-                                large: childImageSharp {
-                                    resize(width: 1500, cropFocus: CENTER, quality: 100)  {
-                                        src
-                                    }
+                                    caption
                                 }
                             }
-                            caption
                         }
-
                     }
                 }
             `}
-            render={data => (
-                <Gallery images={props.name !== "" ? data[props.name] : data.featured} />
-            )}
+            render={data => {
+                const gallery = data.allGalleriesJson.edges.filter(gallery => gallery.node.slug === props.slug)
+
+                if (gallery) {
+                    return(
+                        <Gallery images={gallery[0].node.images} />
+                    )
+                } else return ""
+            }}
         />
     )
 }
-
-/*
-
-                    // flowers: allGalleryFlowersJson {
-                    //     nodes {
-                    //         img {
-                    //             publicURL
-                    //             childImageSharp {
-                    //                 resize(width: 415, cropFocus: CENTER, quality: 100)  {
-                    //                     src
-                    //                 }
-                    //             }
-                    //         }
-                    //         caption
-                    //     }
-                    // }
-
-                    */

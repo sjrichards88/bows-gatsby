@@ -12,6 +12,12 @@ import cookiesImg from "images/banners/cookies.jpg"
 import galleryImg from "images/banners/gallery.jpg"
 import realwedddingsImg from "images/banners/real-weddings.jpg"
 
+import rachelVito from "images/banners/rachel-and-vito.jpg"
+import samanthaOwain from "images/banners/samantha-and-owain.jpg"
+import karenBrian from "images/banners/karen-and-brian.jpg"
+import rachelBrendan from "images/banners/rachel-and-brendan.jpg"
+import rebeccaAlex from "images/banners/rebecca-and-alex.jpg"
+
 const Wrapper = styled.div`
     position: relative;
     margin-bottom: 1.5rem;
@@ -82,6 +88,25 @@ const InnerWrapper = styled.div`
         background-image: url("${realwedddingsImg}");
     `}
 
+    ${props => props.page === "rachel-and-vito" && css`
+        background-image: url("${rachelVito}");
+    `}
+
+    ${props => props.page === "samantha-and-owain" && css`
+        background-image: url("${samanthaOwain}");
+    `}
+
+    ${props => props.page === "karen-and-brian" && css`
+        background-image: url("${karenBrian}");
+    `}
+
+    ${props => props.page === "rachel-and-brendan" && css`
+        background-image: url("${rachelBrendan}");
+    `}
+
+    ${props => props.page === "rebecca-and-alex" && css`
+        background-image: url("${rebeccaAlex}");
+    `}
 `
 
 const WrapperText = styled.div`
