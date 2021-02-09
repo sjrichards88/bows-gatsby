@@ -6,7 +6,7 @@ import Text from "components/shared/Text"
 
 const SuppliersPage = () => {
     return(
-        <Layout>
+  	    <Layout title="Suppliers Registration and Public Liability Insurance">
             <PageHeader page="about" title="Suppliers Registration and Public Liability Insurance" />
 
             <TextContainer>

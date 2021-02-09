@@ -8,7 +8,7 @@ import PageHeader from "components/shared/PageHeader"
 import ImageWrap from "components/shared/ImageWrap"
 
 const RealWeddingsPage = (props) => (
-  	<Layout>
+  	<Layout title="Real Weddings">
         <PageHeader page="realweddings" title="Real Weddings" />
 
 		<ContainerMax>

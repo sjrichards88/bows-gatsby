@@ -34,7 +34,7 @@ const ContactPage = () => {
     `)
 	
 	return(
-		<Layout>
+		<Layout title="Contact">
 			<PageHeader page="contact" title="Contact Me" taller3 />
 			<TextContainer>
 				<Text md>

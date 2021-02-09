@@ -90,17 +90,17 @@ const Footer = () => {
                             <FooterTitle>Social</FooterTitle>
                             <Social>
                                 <li>
-                                    <a href="https://facebook.com">
+                                    <a href="https://facebook.com/WeddingsinTaorminabyBouquetsandBows" target="_blank" rel="noopener noreferrer">
                                         <FontAwesomeIcon icon={faFacebookF} />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com">
+                                    <a href="https://twitter.com/@BouquetsBows" target="_blank" rel="noopener noreferrer">
                                         <FontAwesomeIcon icon={faTwitter} />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://instagram.com">
+                                    <a href="https://instagram.com/lizbouquetsandbows" target="_blank" rel="noopener noreferrer">
                                         <FontAwesomeIcon icon={faInstagram} />
                                     </a>
                                 </li>

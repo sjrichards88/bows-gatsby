@@ -9,7 +9,6 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import shareImage from "images/logov2.png"
 
 const Entities = require('html-entities').XmlEntities;
 const entities = new Entities();
@@ -34,7 +33,7 @@ function SEO({ description, lang, meta, keywords, title, image, path }) {
     const metaDescription = entities.decode(description) || site.siteMetadata.description
     const metaTitle = entities.decode(title) || site.siteMetadata.title
     // const metaUrl = url || site.siteMetadata.siteUrl
-    const metaImage = image || site.siteMetadata.siteUrl+shareImage
+    const metaImage = image || `${site.siteMetadata.siteUrl}/favicon.jpg`
 
     const ogurl = site.siteMetadata.siteUrl+path
     
@@ -71,21 +70,13 @@ function SEO({ description, lang, meta, keywords, title, image, path }) {
                         }
                         : []
                 )
-                .concat(
-                	metaImage.length > 0
-                        ? {
-                  	        property: `og:image`,
-                            content: metaImage
-                        }
-                        : []
-                )
                 .concat(meta)}
         >
             <script type="application/ld+json">{`
                 {
                     "@context": "https://schema.org/",
                     "@type": "WebSite",
-                    "name": "Website Name Here",
+                    "name": "Weddings in Taormina",
                     "url": "https://www.weddingsintaormina.com"
                 }
             `}
@@ -95,7 +86,12 @@ function SEO({ description, lang, meta, keywords, title, image, path }) {
             <meta property="og:description" content={metaDescription} />
             <meta property="og:url" content={ogurl} />
             <meta property="og:type" content="website" />
-            {/* <meta property="og:image" content={`${data.site.siteMetadata.siteUrl}/images/share-image.jpg`} /> */}
+            <meta property="og:image" content={metaImage} />
+            <meta property="twitter:card" content="summary" />
+            <meta property="twitter:creator" content={site.siteMetadata.author} />
+            <meta property="twitter:title" content={metaTitle} />
+            <meta property="twitter:description" content={metaDescription} />
+            <meta property="twitter:image" content={metaImage} />
         </Helmet>
     )
 }
