@@ -10,7 +10,7 @@ import scrollToElement from "scroll-to-element"
 
 const Wrapper = styled.div`
     max-height: 100vh;
-    width: 101%;
+    width: 100%;
     overflow: hidden;
     position: relative;
     margin-bottom: 1.5rem;
