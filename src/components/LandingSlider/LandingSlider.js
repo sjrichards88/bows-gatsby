@@ -141,10 +141,17 @@ class LandingSlider extends Component {
             <Wrapper>
                 <SliderStyled {...settings}>
                     {this.props.data.allLandingSliderJson.edges.map((image, i) => {
+                        const sources = [
+                            image.node.imgmob.childImageSharp.fluid,
+                            {
+                            ...image.node.img.childImageSharp.fluid,
+                                media: `(min-width: 768px)`,
+                            },
+                        ]
+
                         return(
                             <React.Fragment key={i}>
-                                <Img fluid={image.node.img.childImageSharp.fluid} className="d-none d-md-block" />
-                                <Img fluid={image.node.imgmob.childImageSharp.fluid} className="slider-image-mobile d-md-none" />
+                                <Img fluid={sources}  />
                             </React.Fragment>
                         )
                     })}
