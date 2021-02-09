@@ -151,7 +151,7 @@ class LandingSlider extends Component {
 
                         return(
                             <React.Fragment key={i}>
-                                <Img fluid={sources}  />
+                                <Img fluid={sources} alt="" />
                             </React.Fragment>
                         )
                     })}
@@ -178,15 +178,15 @@ export default () => (
                         node {
                             img {
                                 childImageSharp {
-                                    fluid(maxWidth: 1920, quality: 98) {
-                                        ...GatsbyImageSharpFluid_withWebp
+                                    fluid(maxWidth: 1920, quality: 95) {
+                                        ...GatsbyImageSharpFluid
                                     }
                                 }
                             }
                             imgmob {
                                 childImageSharp {
-                                    fluid(maxWidth: 768, quality: 98) {
-                                        ...GatsbyImageSharpFluid_withWebp
+                                    fluid(maxWidth: 768, quality: 95) {
+                                        ...GatsbyImageSharpFluid
                                     }
                                 }
                             }
