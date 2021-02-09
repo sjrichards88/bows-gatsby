@@ -82,8 +82,8 @@ const Footer = () => {
                             <FooterTitle>Contact</FooterTitle>
                             <p>
                                 Email: <a href="mailto:info@bouquetsandbows.com">info@bouquetsandbows.com</a> <br/>
-                                Phone: 123456789 <br/>
-                                Fax: 123456789
+                                {/* Phone: 123456789 <br/>
+                                Fax: 123456789 */}
                             </p> 
                         </Col>
                         <Col sm={6} md={3} className="pb-3">
