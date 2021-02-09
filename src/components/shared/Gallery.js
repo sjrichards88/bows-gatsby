@@ -69,12 +69,12 @@ export default (props) => {
                                 images {
                                     img {
                                         thumb: childImageSharp {
-                                            resize(width: 415, cropFocus: CENTER, quality: 100)  {
+                                            resize(width: 415, cropFocus: CENTER, quality: 98)  {
                                                 src
                                             }
                                         }
                                         large: childImageSharp {
-                                            resize(width: 1500, cropFocus: CENTER, quality: 100)  {
+                                            resize(width: 1500, cropFocus: CENTER, quality: 98)  {
                                                 src
                                             }
                                         }

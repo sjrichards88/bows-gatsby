@@ -43,8 +43,8 @@ export default (props) => {
 								slug
 								coverPhoto {
 									childImageSharp {
-										fluid(maxWidth: 576, quality: 100) {
-											...GatsbyImageSharpFluid
+										fluid(maxWidth: 576, quality: 98) {
+											...GatsbyImageSharpFluid_withWebp
 										}
 									}
 								}
@@ -53,7 +53,7 @@ export default (props) => {
 					}
 					logo: file(relativePath: { eq: "logo.png" }) {
 						childImageSharp {
-							resize(width: 70, cropFocus: CENTER, quality: 100)  {
+							resize(width: 70, cropFocus: CENTER, quality: 98)  {
 								src
 							}
 						}

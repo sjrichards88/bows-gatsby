@@ -135,8 +135,8 @@ const WrapperText = styled.div`
 export const imageFragment = graphql`
     fragment imageFragment on File {
         childImageSharp {
-            fluid(maxWidth: 1920, quality: 100) {
-                ...GatsbyImageSharpFluid_withWebp_noBase64
+            fluid(maxWidth: 1920, quality: 98) {
+                ...GatsbyImageSharpFluid_withWebp
             }
         }
     }

@@ -93,8 +93,8 @@ export default (props) => (
                             alt
                             img {
                                 childImageSharp {
-                                    fluid(maxWidth: 1200, quality: 100) {
-                                        ...GatsbyImageSharpFluid
+                                    fluid(maxWidth: 1200, quality: 98) {
+                                        ...GatsbyImageSharpFluid_withWebp
                                     }
                                 }
                             }

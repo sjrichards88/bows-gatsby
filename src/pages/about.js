@@ -24,16 +24,16 @@ const AboutPage = () => {
         query {
             aboutme: file(relativePath: { eq: "best-day-of-our-lives.jpg" }) {
 				childImageSharp {
-					fluid(maxWidth: 700, quality: 100) {
-						...GatsbyImageSharpFluid_withWebp_noBase64
+					fluid(maxWidth: 700, quality: 98) {
+						...GatsbyImageSharpFluid_withWebp
 						...GatsbyImageSharpFluidLimitPresentationSize
 					}
 				}
             }
             about: file(relativePath: { eq: "about.jpg" }) {
 				childImageSharp {
-					fluid(maxWidth: 800, quality: 90) {
-						...GatsbyImageSharpFluid_withWebp_noBase64
+					fluid(maxWidth: 800, quality: 98) {
+						...GatsbyImageSharpFluid_withWebp
 						...GatsbyImageSharpFluidLimitPresentationSize
 					}
 				}
