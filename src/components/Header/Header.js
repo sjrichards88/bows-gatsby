@@ -1,6 +1,7 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React, { Component } from "react"
+import { StaticQuery, graphql, Link } from "gatsby"
+import PropTypes from "prop-types"
+// import Img from "gatsby-image"
 import styled from "styled-components"
 import {
     Container,
@@ -15,7 +16,7 @@ import classNames from "classnames"
 
 import { media } from "utils/Media"
 
-import logo from "images/logo.png"
+// import logo from "images/logo.png"
 import taglineBefore from "images/tagline-before.png"
 import taglineAfter from "images/tagline-after.png"
 
@@ -238,7 +239,7 @@ class Header extends Component {
                                 <NavbarToggler onClick={this.toggleNav} />
                                 <div className="tagline-wrapper"><p className="tagline">Weddings in Taormina by Bouquets and Bows</p></div>
                                 <NavbarBrandStyled to="/" className="navbar-brand">
-                                    <img src={logo} alt="Bouquets and Bows" />
+                                    <img src={this.props.logo.childImageSharp.resize.src} alt="Bouquets and Bows" />
                                 </NavbarBrandStyled>
                             </NavbarHeader>
                         </Row>
@@ -278,4 +279,21 @@ Header.defaultProps = {
     siteTitle: ``,
 }
 
-export default Header
+export default () => (
+    <StaticQuery
+        query={graphql`
+            query {
+                logo: file(relativePath: { eq: "logo-small.png" }) {
+                    childImageSharp {
+                        resize(width: 110, cropFocus: CENTER, quality: 98)  {
+                            src
+                        }
+                    }
+                }
+            }
+        `}
+        render={data => (
+            <Header logo={data.logo} />
+        )}
+    />
+)
