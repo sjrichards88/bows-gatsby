@@ -178,15 +178,15 @@ export default () => (
                         node {
                             img {
                                 childImageSharp {
-                                    fluid(maxWidth: 1920, quality: 98) {
-                                        ...GatsbyImageSharpFluid_withWebp
+                                    fluid(maxWidth: 1920, quality: 85) {
+                                        ...GatsbyImageSharpFluid_withWebp_tracedSVG
                                     }
                                 }
                             }
                             imgmob {
                                 childImageSharp {
-                                    fluid(maxWidth: 768, quality: 98) {
-                                        ...GatsbyImageSharpFluid_withWebp
+                                    fluid(maxWidth: 768, quality: 85) {
+                                        ...GatsbyImageSharpFluid_withWebp_tracedSVG
                                     }
                                 }
                             }

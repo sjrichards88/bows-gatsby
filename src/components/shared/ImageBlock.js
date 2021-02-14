@@ -28,8 +28,8 @@ export default (props) => (
                             alt
                             img {
                                 childImageSharp {
-                                    fluid(maxWidth: 576, quality: 98) {
-                                        ...GatsbyImageSharpFluid_withWebp
+                                    fluid(maxWidth: 576, quality: 85) {
+                                        ...GatsbyImageSharpFluid_withWebp_tracedSVG
                                     }
                                 }
                             }
@@ -39,7 +39,7 @@ export default (props) => (
                 }
                 logo: file(relativePath: { eq: "logo-small.png" }) {
                     childImageSharp {
-                        resize(width: 70, cropFocus: CENTER, quality: 98)  {
+                        resize(width: 70, cropFocus: CENTER, quality: 85)  {
                             src
                         }
                     }
