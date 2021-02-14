@@ -6,6 +6,7 @@
         "coverPhoto": null,
         "introText": null,
         "fullText": null,
+        "endText": null,
         "images": [
             {
                 "img": "../images/gallery/featured/bouquets-and-bows-destination-wedding-planner-taormina-sicily-1.jpg",
@@ -336,6 +337,7 @@
         "coverPhoto": "../images/gallery/1-Rachel-Vito/cover-photo.jpg",
         "introText": "<p>American couple Rachel & Vito held their fabulous traditional Jewish blessing ceremony in the lush ‘English Garden’ of the stunning Belmond Villa Sant’Andrea by the sea in Taormina Mare. The entire day was just so much fun from start to finish.</p>",
         "fullText": "<p>Rachel chose white phalaenopsis orchids for her bridal flowers. The wedding chuppah was especially made from natural white birch wood decorated with trailing white Singapore orchids, ruscus & eucalyptus.</p><p>The guests enjoyed some lively musical entertainment and dancing during the aperitif on the upper ‘Mazzaro Terrace’ including the traditional Jewish ‘Hora’ chair lift.</p><p>A draping canopy of warm white string lights hung above the entire length of an amazing white and gold Imperial dinner table in ‘La Pergola’ and hand painted seashells marked each of the place settings.</p><p>The wedding came to a fabulous conclusion with a naked and gold wedding cake, dessert buffet and open bar with a DJ for a lively after party on the beach.</p>",
+        "endText": "<p>Photos by Marco Ficili</p>",
         "images": [
             {
                 "img": "../images/gallery/1-Rachel-Vito/jewish-wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-1.jpg",
@@ -506,6 +508,7 @@
         "coverPhoto": "../images/gallery/6-Laura-Dan/cover-photo.jpg",
         "introText": "<p>British couple Laura & Dan married in a civil ceremony at the 14th Century Palazzo Duchi di Santo Stefano in Taormina. A stunning fuchsia colour palette for their bridesmaid’s dresses, wedding flowers and their Imperial dinner table at the fabulous luxury Belmond Grand Hotel Timeo.</p>",
         "fullText": null,
+        "endText": "<p>Photos by Marco Ficili</p>",
         "images": [
             {
                 "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-1.jpg",
@@ -692,6 +695,7 @@
         "coverPhoto": "../images/gallery/2-Samantha-Owain/cover-photo.jpg",
         "introText": "<p>British couple Samantha & Owain had their Jewish blessing ceremony beneath the ruins of the ancient Greek Theatre of Taormina on the stunning panoramic ‘Terrazza Teatro Greco’ of the luxury Belmond Grand Hotel Timeo.</p>",
         "fullText": "<p>Samantha chose white roses and babys breath for her bridal flowers.</p><p>All around the ceremony terrace the surrounding walls were covered with white and lemon yellow flowers. Vases of white Sicilian ceramics on stone columns overflowed with flowers. </p><p>Underneath the wedding chuppah the couple signed the Ketubah and the groom did the traditional smashing of a glass at the conclusion of the ceremony. </p><p>The Belmond Grand Hotel Timeo is a fabulous location for wedding photography with its garden and stunning views towards Mount Etna.</p><p>Tall glass vases filled with water and floating colour changing led lights set the scene for the table flower centrepieces on the ‘Afrodite Terrace’. A tenor entertained the guests during dinner and of course the no Jewish wedding would be complete without some lively dancing and the traditional Jewish ‘Hora’ chair lift. Mazel Tov!</p>",
+        "endText": null,
         "images": [
             {
                 "img": "../images/gallery/2-Samantha-Owain/jewish-wedding-blessing-taormina-belmond-grand-hotel-timeo-sicily-1.jpg",
@@ -878,6 +882,7 @@
         "coverPhoto": "../images/gallery/4-Rachel-Brendan/cover-photo.jpg",
         "introText": "<p>Rachel & Brendan travelled all the way from Australia to celebrate their wedding in Taormina at the Catholic Church of San Giuseppe and their reception was held at the stunning Belmond Villa Sant’Andrea in Taormina Mare.</p>",
         "fullText": "<p>Rachel chose a mix of white peonies, white cymbidium orchids, blush mini roses and eucalyptus  for her natural style bouquet, and round posies of gypsophilia babys breath for the bridesmaids</p><p>The ceremony was followed by a ‘passeggiata’ on foot with the guests along the Corso Umberto accompanied by Sicilian folk style strolling street musicians. The couple drove away in their vintage Beauford bridal car stopping for location photos at the botanical gardens of Taormina en route to join their guests at the venue.</p><p>The reception and after party took place in ‘La Pergola’ banqueting terrace directly above the sea at the stunning Belmond Villa Sant’Andrea in Taormina Mare.</p>",
+        "endText": "<p>Photos by Romina Costantino</p>",
         "images": [
             {
                 "img": "../images/gallery/4-Rachel-Brendan/catholic-church-wedding-taormina-san-giuseppe-belmond-villa-sant-andrea-1.jpg",
@@ -1234,6 +1239,7 @@
         "coverPhoto": "../images/gallery/3-Karen-Brian/cover-photo.jpg",
         "introText": "<p>American couple Karen & Brian held their beautiful wedding blessing ceremony in the lush ‘English Garden’ of the stunning Belmond Villa Sant’Andrea by the sea in Taormina Mare. The groom and his groomsmen arrived at the venue on a colourful Sicilian fishing boat!</p>",
         "fullText": "<p>Karen chose white peonies for her bridal flowers. The lovely ‘English Garden’ with its hedges and lawns was even further adorned by a lush white floral ceremony archway.</p><p>Crystal vases of white peonies, roses and lisianthus with intermittent mini kumquat trees, tapering candelabras and tealights flowed all along the entire length of an amazing white and silver Imperial dinner table on the ‘Mazzaro Terrace’ in the upper garden and acrylic mirror script names marked each of the place settings.</p><p>The wedding came to a fabulous conclusion on the beach deck with a buffet of delicious cakes and Sicilian pastries and a floral explosion of archway and cascade surrounding their 5 tier wedding cake creating a magical setting for the live 10-piece dance band and open bar for the after party.</p>",
+        "endText": null,
         "images": [
             {
                 "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-1.jpg",
@@ -1404,6 +1410,7 @@
         "coverPhoto": "../images/gallery/8-Lucy-Paul/cover-photo.jpg",
         "introText": "<p>British couple Lucy & Paul got married in a civil ceremony in the wedding hall of the 14th Century Palazzo Duchi di Santo Stefano in Taormina with its lovely garden and wishing well.</p>",
         "fullText": "<p>Lucy had an amazing bouquet. The pretty bridesmaids wore stunning coral dresses and their bouquets were balls of white baby’s breath gypsophila. Matching flowers and chair garland decorations adorned the Palazzo wedding hall. </p><p>After the ceremony the couple had drinks and location photos in Taormina centre followed by a drive though the town in a vintage Volkswagen Beetle</p><p>Family and friends enjoyed an entertaining Sicilian folk style trio on the rooftop of the venue. Pretty floral centrepieces with vases of floating candles decorated the table centres creating a lovely ambience during dinner. A stunning cascade of flowers on the delicious wedding cake and dancing with a DJ at the after party until the early hours of the morning.</p>",
+        "endText": null,
         "images": [
             {
                 "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-1.jpg",
@@ -1574,6 +1581,7 @@
         "coverPhoto": "../images/gallery/5-Rebecca-Alex/cover-photo.jpg",
         "introText": "<p>British couple Rebecca & Alex got married in a civil ceremony at the 14th Century Palazzo Duchi di Santo Stefano with its lovely garden and wishing well. Rebecca and her bridesmaids walked in the brilliant sunshine from her hotel on the Corso Umberto to the Palazzo wedding hall.</p>",
         "fullText": "<p>Rebecca chose unusual ‘Miss Piggy’ orangey-pink roses and blush ipericum berries for a striking colour palette. The bridesmaids carried round posies of white gypsophilia and ‘Miss Piggy’ roses in contrast to their dark blue bridesmaids dresses.</p><p>A leisurely walk through back through the town centre for drinks and photos after the ceremony with the bridal party, before heading up to their rooftop reception with magnificent Mount Etna smouldering in the background.</p>",
+        "endText": null,
         "images": [
             {
                 "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-1.jpg",

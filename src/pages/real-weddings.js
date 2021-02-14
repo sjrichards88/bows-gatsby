@@ -6,10 +6,19 @@ import ContainerMax from "components/shared/ContainerMax"
 import Layout from "components/Layout/Layout"
 import PageHeader from "components/shared/PageHeader"
 import ImageWrap from "components/shared/ImageWrap"
+import TextContainer from "components/shared/TextContainer"
+import Text from "components/shared/Text"
 
 const RealWeddingsPage = (props) => (
   	<Layout title="Real Weddings">
         <PageHeader page="realweddings" title="Real Weddings" />
+
+		<TextContainer>
+			<Text>
+				<p>Featuring a selection of some of the more recent of the many lovely weddings I have had the great pleasure of organising here in Taormina over the past 16 years</p>
+				<p>Thank you to all of my couples for allowing me to share these amazing memories here.</p>
+			</Text>
+        </TextContainer>
 
 		<ContainerMax>
 			<Row>

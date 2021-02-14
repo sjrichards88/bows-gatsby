@@ -14,7 +14,7 @@ const Button = styled.button`
     border: 0;
 
     ${props => props.active && css`
-    background-color: ${props => props.theme.colors.primary};
+        background-color: ${props => props.theme.colors.primary};
     `}
 `
 
@@ -27,11 +27,12 @@ const GalleryPage = (props) => {
         name,
         slug,
         introText,
-        fullText
+        fullText,
+        endText
     } = props.pageContext
 
     return(
-        <Layout>
+        <Layout title={name}>
             <PageHeader page={slug === "" ? "gallery" : slug} title={name === "" ? "Gallery" :  name} />
 
             {introText && 
@@ -63,6 +64,12 @@ const GalleryPage = (props) => {
             </Container>
 
             <Gallery slug={slug} />
+
+            {endText && 
+                <TextContainer>
+                    <Text md dangerouslySetInnerHTML={{ __html: endText}} />
+                </TextContainer>
+            }
         </Layout>
     )
 }

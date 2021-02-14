@@ -31,7 +31,7 @@ function SEO({ description, lang, meta, keywords, title, image, path }) {
     )
 
     const metaDescription = entities.decode(description) || site.siteMetadata.description
-    const metaTitle = entities.decode(title) || site.siteMetadata.title
+    const metaTitle = title !== undefined ? `${entities.decode(title)} | ${site.siteMetadata.title}` : site.siteMetadata.title
     // const metaUrl = url || site.siteMetadata.siteUrl
     const metaImage = image || `${site.siteMetadata.siteUrl}/favicon.jpg`
 

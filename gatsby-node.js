@@ -26,6 +26,7 @@ exports.createPages = async ({ graphql, actions }) => {
                     slug
                     introText
                     fullText
+                    endText
                 }
             }
         }
@@ -41,7 +42,8 @@ exports.createPages = async ({ graphql, actions }) => {
                 slug: node.slug,
                 name: node.name,
                 introText: node.introText,
-                fullText: node.fullText
+                fullText: node.fullText,
+                endText: node.endText
             },
         })
     })
