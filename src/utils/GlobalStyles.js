@@ -6,7 +6,6 @@ const GlobalStyles = createGlobalStyle`
         font-family: ${props => props.theme.font.family.body};
         font-size: ${props => props.theme.font.size.base};
         font-weight: normal;
-        font-display: swap;
         line-height: ${props => props.theme.font.lineHeight.base};
         color: ${props => props.theme.colors.blackOff};
         background-color: ${props => props.theme.colors.white};
