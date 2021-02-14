@@ -4,6 +4,8 @@
         "type": "gallery",
         "slug": "",
         "coverPhoto": null,
+        "introText": null,
+        "fullText": null,
         "images": [
             {
                 "img": "../images/gallery/featured/bouquets-and-bows-destination-wedding-planner-taormina-sicily-1.jpg",
@@ -332,6 +334,8 @@
         "type": "real-wedding",
         "slug": "rachel-and-vito",
         "coverPhoto": "../images/gallery/1-Rachel-Vito/cover-photo.jpg",
+        "introText": "<p>American couple Rachel & Vito held their fabulous traditional Jewish blessing ceremony in the lush ‘English Garden’ of the stunning Belmond Villa Sant’Andrea by the sea in Taormina Mare. The entire day was just so much fun from start to finish.</p>",
+        "fullText": "<p>Rachel chose white phalaenopsis orchids for her bridal flowers. The wedding chuppah was especially made from natural white birch wood decorated with trailing white Singapore orchids, ruscus & eucalyptus.</p><p>The guests enjoyed some lively musical entertainment and dancing during the aperitif on the upper ‘Mazzaro Terrace’ including the traditional Jewish ‘Hora’ chair lift.</p><p>A draping canopy of warm white string lights hung above the entire length of an amazing white and gold Imperial dinner table in ‘La Pergola’ and hand painted seashells marked each of the place settings.</p><p>The wedding came to a fabulous conclusion with a naked and gold wedding cake, dessert buffet and open bar with a DJ for a lively after party on the beach.</p>",
         "images": [
             {
                 "img": "../images/gallery/1-Rachel-Vito/jewish-wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-1.jpg",
@@ -496,10 +500,198 @@
         ]
     },
     {
+        "name": "Laura & Dan",
+        "type": "real-wedding",
+        "slug": "laura-and-dan",
+        "coverPhoto": "../images/gallery/6-Laura-Dan/cover-photo.jpg",
+        "introText": "<p>British couple Laura & Dan married in a civil ceremony at the 14th Century Palazzo Duchi di Santo Stefano in Taormina. A stunning fuchsia colour palette for their bridesmaid’s dresses, wedding flowers and their Imperial dinner table at the fabulous luxury Belmond Grand Hotel Timeo.</p>",
+        "fullText": null,
+        "images": [
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-1.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-2.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-3.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-4.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-5.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-6.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-7.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-8.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-9.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-10.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-11.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-12.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-13.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-14.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-15.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-16.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-17.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-18.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-19.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-20.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-21.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-22.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-23.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-24.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-25.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-26.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-27.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-28.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-29.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-30.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-31.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-32.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-33.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-34.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-35.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-36.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-37.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-38.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-39.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-40.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-41.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-42.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-43.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/6-Laura-Dan/civil-wedding-taormina-sicily-palazzo-duchi-belmond-grand-hotel-timeo-44.jpg",
+                "caption": ""
+            }
+        ]
+    },
+    {
         "name": "Samantha & Owain",
         "type": "real-wedding",
         "slug": "samantha-and-owain",
         "coverPhoto": "../images/gallery/2-Samantha-Owain/cover-photo.jpg",
+        "introText": "<p>British couple Samantha & Owain had their Jewish blessing ceremony beneath the ruins of the ancient Greek Theatre of Taormina on the stunning panoramic ‘Terrazza Teatro Greco’ of the luxury Belmond Grand Hotel Timeo.</p>",
+        "fullText": "<p>Samantha chose white roses and babys breath for her bridal flowers.</p><p>All around the ceremony terrace the surrounding walls were covered with white and lemon yellow flowers. Vases of white Sicilian ceramics on stone columns overflowed with flowers. </p><p>Underneath the wedding chuppah the couple signed the Ketubah and the groom did the traditional smashing of a glass at the conclusion of the ceremony. </p><p>The Belmond Grand Hotel Timeo is a fabulous location for wedding photography with its garden and stunning views towards Mount Etna.</p><p>Tall glass vases filled with water and floating colour changing led lights set the scene for the table flower centrepieces on the ‘Afrodite Terrace’. A tenor entertained the guests during dinner and of course the no Jewish wedding would be complete without some lively dancing and the traditional Jewish ‘Hora’ chair lift. Mazel Tov!</p>",
         "images": [
             {
                 "img": "../images/gallery/2-Samantha-Owain/jewish-wedding-blessing-taormina-belmond-grand-hotel-timeo-sicily-1.jpg",
@@ -680,178 +872,12 @@
         ]
     },
     {
-        "name": "Karen & Brian",
-        "type": "real-wedding",
-        "slug": "karen-and-brian",
-        "coverPhoto": "../images/gallery/3-Karen-Brian/cover-photo.jpg",
-        "images": [
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-1.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-2.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-3.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-4.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-5.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-6.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-7.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-8.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-9.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-10.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-11.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-12.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-13.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-14.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-15.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-16.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-17.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-18.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-19.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-20.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-21.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-22.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-23.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-24.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-25.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-26.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-27.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-28.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-29.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-30.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-31.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-32.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-33.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-34.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-35.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-36.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-37.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-38.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-39.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-40.jpg",
-                "caption": ""
-            }
-        ]
-    },
-    {
         "name": "Rachel & Brendan",
         "type": "real-wedding",
         "slug": "rachel-and-brendan",
         "coverPhoto": "../images/gallery/4-Rachel-Brendan/cover-photo.jpg",
+        "introText": "<p>Rachel & Brendan travelled all the way from Australia to celebrate their wedding in Taormina at the Catholic Church of San Giuseppe and their reception was held at the stunning Belmond Villa Sant’Andrea in Taormina Mare.</p>",
+        "fullText": "<p>Rachel chose a mix of white peonies, white cymbidium orchids, blush mini roses and eucalyptus  for her natural style bouquet, and round posies of gypsophilia babys breath for the bridesmaids</p><p>The ceremony was followed by a ‘passeggiata’ on foot with the guests along the Corso Umberto accompanied by Sicilian folk style strolling street musicians. The couple drove away in their vintage Beauford bridal car stopping for location photos at the botanical gardens of Taormina en route to join their guests at the venue.</p><p>The reception and after party took place in ‘La Pergola’ banqueting terrace directly above the sea at the stunning Belmond Villa Sant’Andrea in Taormina Mare.</p>",
         "images": [
             {
                 "img": "../images/gallery/4-Rachel-Brendan/catholic-church-wedding-taormina-san-giuseppe-belmond-villa-sant-andrea-1.jpg",
@@ -1016,10 +1042,538 @@
         ]
     },
     {
+        "name": "Katie & Nick",
+        "type": "real-wedding",
+        "slug": "katie-and-nick",
+        "coverPhoto": "../images/gallery/7-Katie-Nick/cover-photo.jpg",
+        "introText": "<p>British couple Katie & Nick married in a civil ceremony at the Palazzo Duchi di Santo Stefano in Taormina. The groom had a large party of groomsmen who kept everyone entertained throughout the day. Their wedding reception was held at the luxurious Belmond Grand Hotel Timeo.</p>",
+        "fullText": null,
+        "images": [
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-1.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-2.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-3.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-4.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-5.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-6.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-7.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-8.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-9.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-10.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-11.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-12.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-13.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-14.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-15.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-16.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-17.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-18.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-19.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-20.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-21.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-22.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-23.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-24.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-25.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-26.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-27.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-28.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-29.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-30.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-31.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-32.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-33.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-34.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-35.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-36.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-37.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-38.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-39.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-40.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-41.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-42.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-43.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/7-Katie-Nick/civil-wedding-taormina-palazzo-duchi-belmond-grand-hotel-timeo-sicily-44.jpg",
+                "caption": ""
+            }
+        ]
+    },
+    {
+        "name": "Karen & Brian",
+        "type": "real-wedding",
+        "slug": "karen-and-brian",
+        "coverPhoto": "../images/gallery/3-Karen-Brian/cover-photo.jpg",
+        "introText": "<p>American couple Karen & Brian held their beautiful wedding blessing ceremony in the lush ‘English Garden’ of the stunning Belmond Villa Sant’Andrea by the sea in Taormina Mare. The groom and his groomsmen arrived at the venue on a colourful Sicilian fishing boat!</p>",
+        "fullText": "<p>Karen chose white peonies for her bridal flowers. The lovely ‘English Garden’ with its hedges and lawns was even further adorned by a lush white floral ceremony archway.</p><p>Crystal vases of white peonies, roses and lisianthus with intermittent mini kumquat trees, tapering candelabras and tealights flowed all along the entire length of an amazing white and silver Imperial dinner table on the ‘Mazzaro Terrace’ in the upper garden and acrylic mirror script names marked each of the place settings.</p><p>The wedding came to a fabulous conclusion on the beach deck with a buffet of delicious cakes and Sicilian pastries and a floral explosion of archway and cascade surrounding their 5 tier wedding cake creating a magical setting for the live 10-piece dance band and open bar for the after party.</p>",
+        "images": [
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-1.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-2.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-3.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-4.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-5.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-6.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-7.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-8.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-9.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-10.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-11.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-12.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-13.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-14.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-15.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-16.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-17.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-18.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-19.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-20.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-21.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-22.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-23.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-24.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-25.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-26.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-27.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-28.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-29.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-30.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-31.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-32.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-33.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-34.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-35.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-36.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-37.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-38.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-39.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/3-Karen-Brian/wedding-blessing-by-the-sea-belmond-villa-sant-andrea-taormina-sicily-40.jpg",
+                "caption": ""
+            }
+        ]
+    },
+    {
+        "name": "Lucy & Paul",
+        "type": "real-wedding",
+        "slug": "lucy-and-paul",
+        "coverPhoto": "../images/gallery/8-Lucy-Paul/cover-photo.jpg",
+        "introText": "<p>British couple Lucy & Paul got married in a civil ceremony in the wedding hall of the 14th Century Palazzo Duchi di Santo Stefano in Taormina with its lovely garden and wishing well.</p>",
+        "fullText": "<p>Lucy had an amazing bouquet. The pretty bridesmaids wore stunning coral dresses and their bouquets were balls of white baby’s breath gypsophila. Matching flowers and chair garland decorations adorned the Palazzo wedding hall. </p><p>After the ceremony the couple had drinks and location photos in Taormina centre followed by a drive though the town in a vintage Volkswagen Beetle</p><p>Family and friends enjoyed an entertaining Sicilian folk style trio on the rooftop of the venue. Pretty floral centrepieces with vases of floating candles decorated the table centres creating a lovely ambience during dinner. A stunning cascade of flowers on the delicious wedding cake and dancing with a DJ at the after party until the early hours of the morning.</p>",
+        "images": [
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-1.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-2.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-3.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-4.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-5.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-6.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-7.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-8.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-9.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-10.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-11.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-12.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-13.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-14.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-15.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-16.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-17.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-18.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-19.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-20.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-21.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-22.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-23.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-24.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-25.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-26.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-27.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-28.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-29.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-30.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-31.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-32.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-33.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-34.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-35.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-36.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-37.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-38.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-39.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-40.jpg",
+                "caption": ""
+            }
+        ]
+    },
+    {
         "name": "Rebecca & Alex",
         "type": "real-wedding",
         "slug": "rebecca-and-alex",
         "coverPhoto": "../images/gallery/5-Rebecca-Alex/cover-photo.jpg",
+        "introText": "<p>British couple Rebecca & Alex got married in a civil ceremony at the 14th Century Palazzo Duchi di Santo Stefano with its lovely garden and wishing well. Rebecca and her bridesmaids walked in the brilliant sunshine from her hotel on the Corso Umberto to the Palazzo wedding hall.</p>",
+        "fullText": "<p>Rebecca chose unusual ‘Miss Piggy’ orangey-pink roses and blush ipericum berries for a striking colour palette. The bridesmaids carried round posies of white gypsophilia and ‘Miss Piggy’ roses in contrast to their dark blue bridesmaids dresses.</p><p>A leisurely walk through back through the town centre for drinks and photos after the ceremony with the bridal party, before heading up to their rooftop reception with magnificent Mount Etna smouldering in the background.</p>",
         "images": [
             {
                 "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-1.jpg",

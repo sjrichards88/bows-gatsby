@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import { Container, Row, Col } from "reactstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons"
+import { media } from "utils/Media"
 import Text from "components/shared/Text"
 import TextContainer from "components/shared/TextContainer"
 
@@ -41,9 +42,15 @@ const FooterTitle = styled.h4`
 const Social = styled.ul`
     padding: 0;
     display: flex;
+    justify-content: center;
+
+    @media ${media.sm} {
+        justify-content: flex-start;
+    }
 
     li {
         padding-right: 1rem;
+
         a {
             font-size: ${props => props.theme.font.size.lg};
         }
@@ -62,7 +69,7 @@ const Footer = () => {
             <FooterStyled>
                 <Container>
                     <Row>
-                        <Col sm={6} md={3} className="pb-3">
+                        <Col sm={6} md={3} className="pb-3 text-center text-sm-left">
                             <FooterTitle>Menu</FooterTitle>
                             <nav>
                                 <ul>
@@ -78,15 +85,15 @@ const Footer = () => {
                                 </ul>
                             </nav>
                         </Col>
-                        <Col sm={6} md={3} className="pb-3">
+                        <Col sm={6} md={3} className="pb-3 text-center text-sm-left">
                             <FooterTitle>Contact</FooterTitle>
                             <p>
-                                Email: <a href="mailto:info@bouquetsandbows.com">info@bouquetsandbows.com</a> <br/>
+                                Email: <a href="mailto:liz@bouquetsandbows.com">liz@bouquetsandbows.com</a> <br/>
                                 {/* Phone: 123456789 <br/>
                                 Fax: 123456789 */}
                             </p> 
                         </Col>
-                        <Col sm={6} md={3} className="pb-3">
+                        <Col sm={6} md={3} className="pb-3 text-center text-sm-left">
                             <FooterTitle>Social</FooterTitle>
                             <Social>
                                 <li>
@@ -106,7 +113,7 @@ const Footer = () => {
                                 </li>
                             </Social>
                         </Col>
-                        <Col sm={6} md={3}>
+                        <Col sm={6} md={3} className="text-center text-sm-left">
                             © Bouquets and Bows 2004 - {new Date().getFullYear()}<br />
                             All rights reserved <br /><br />
 
@@ -114,7 +121,7 @@ const Footer = () => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col className="pt-3 text-sm-center footer-text">
+                        <Col className="pt-3 footer-text text-center text-md-left">
                             <Text sm>
                                 <Link to="/privacy-policy/">Privacy Policy</Link><br className="d-sm-none"/><span className="d-none d-sm-inline">&nbsp;&nbsp;|&nbsp;&nbsp;</span> 
                                 <Link to="/cookie-policy/">Cookie Policy</Link><br className="d-sm-none"/><span className="d-none d-sm-inline">&nbsp;&nbsp;|&nbsp;&nbsp;</span> 

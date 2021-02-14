@@ -10,11 +10,16 @@ const PrivacyPage = () => {
             <PageHeader page="privacy" title="Privacy Policy" taller />
 
             <TextContainer>
-                <Text md>
+                {/* <Text md>
                     As a legally registered Wedding and Events Planner at the Chamber of Commerce in Messina, I as your key supplier, maintain an adequate policy of insurance in respect of all liabilities, claims, damages, expenses, legal costs and all other sums of whatever nature that as a supplier I may incur towards, or in respect of any client. Such insurance cover is adequate and appropriate in line with Italian custom and practice and with the usual conditions and standards applicable in Italy where the services are to be provided, in line with the particular business in which the supplier operates.
-                </Text>
+                </Text> */}
                 <Text>
-                    <strong>Partita Iva 0273</strong>
+                    <p>
+                        <strong>
+                            P.IVA: 0273893083<br/>
+                            CCIAA ME: 189728
+                        </strong>
+                    </p>
                 </Text>
             </TextContainer>
         </Layout>

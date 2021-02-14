@@ -7,7 +7,7 @@ import Text from "components/shared/Text"
 const ContactPage = () => {
 	return(
 		<Layout title="Contact">
-			<PageHeader page="contact" title="Contact Me" taller3 />
+			<PageHeader page="contact" title="Contact Me" tall />
 			<TextContainer>
 				<Text md>
 					I hope you have enjoyed browsing around my website

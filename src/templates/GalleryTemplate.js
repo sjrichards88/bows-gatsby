@@ -1,36 +1,68 @@
-import React from "react"
+import React, { useState } from "react"
+import { Container, Collapse, Row, Col } from "reactstrap"
+import styled, { css } from "styled-components"
 import Layout from "components/Layout/Layout"
 import Gallery from "components/shared/Gallery"
 import PageHeader from "components/shared/PageHeader"
 import TextContainer from "components/shared/TextContainer"
 import Text from "components/shared/Text"
 
+const Button = styled.button`
+    background-color: ${props => props.theme.colors.secondary};
+    color: white;
+    padding: .5rem 1rem;
+    border: 0;
+
+    ${props => props.active && css`
+    background-color: ${props => props.theme.colors.primary};
+    `}
+`
+
 const GalleryPage = (props) => {
+
+    const [isOpen, setIsOpen] = useState(false)
+    const toggle = () => setIsOpen(!isOpen)
+
+    const { 
+        name,
+        slug,
+        introText,
+        fullText
+    } = props.pageContext
+
     return(
         <Layout>
-            <PageHeader page={props.pageContext.slug === "" ? "gallery" : props.pageContext.slug} title={props.pageContext.name === "" ? "Gallery" :  props.pageContext.name} />
+            <PageHeader page={slug === "" ? "gallery" : slug} title={name === "" ? "Gallery" :  name} />
 
-
-            {props.pageContext.slug === "rachel-and-vito" && 
+            {introText && 
                 <TextContainer>
-                    <Text md>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse hendrerit tincidunt est pharetra elementum. Aliquam erat volutpat. Etiam luctus tempor neque, sed dictum ante fringilla vitae. Vestibulum tincidunt turpis eget elit fringilla, ac viverra dui ornare. Nullam commodo, enim vitae dictum volutpat, felis sapien cursus erat, vitae vehicula nisi ipsum quis nisl. Curabitur sed rhoncus lectus. In et lacus scelerisque, aliquam felis vel, iaculis arcu. Fusce iaculis id nibh aliquam ultrices. Praesent pellentesque tempor nisi, sed efficitur erat euismod vitae. Aliquam in mollis eros. Curabitur laoreet malesuada massa.
-                    </Text>
-                    <Text md>
-                        Vivamus sapien metus, mollis non tempor eu, tincidunt in quam. In convallis ullamcorper tortor et facilisis. Cras maximus tincidunt lacus, aliquet condimentum neque sollicitudin eget. Cras sed blandit dui. Mauris luctus lacinia efficitur. Aenean eget commodo dolor, auctor ullamcorper diam. Donec volutpat elit a congue congue. Integer ac eleifend nibh.
-                    </Text> 
+                    <Text md dangerouslySetInnerHTML={{ __html: introText}} />
                 </TextContainer>
             }
 
-            {props.pageContext.slug === "samantha-and-owain" && 
-                <TextContainer>
-                    <Text md>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse hendrerit tincidunt est pharetra elementum. Aliquam erat volutpat. Etiam luctus tempor neque, sed dictum ante fringilla vitae. Vestibulum tincidunt turpis eget elit fringilla, ac viverra dui ornare. Nullam commodo, enim vitae dictum volutpat, felis sapien cursus erat, vitae vehicula nisi ipsum quis nisl. Curabitur sed rhoncus lectus.
-                    </Text>
-                </TextContainer>
+            {fullText && 
+                <Collapse isOpen={isOpen}>
+                    <Container>
+                        <Row className="justify-content-center text-center pb-4 pb-md-4">
+                            <Col lg={props.thin ? 8 : 10}>
+                                <Text md dangerouslySetInnerHTML={{ __html: fullText}} />
+                            </Col>
+                        </Row>
+                    </Container>
+                </Collapse>
             }
 
-            <Gallery slug={props.pageContext.slug} />
+            <Container>
+                <Row className="justify-content-center text-center pb-4 pb-md-4">
+                    {fullText && 
+                        <Button onClick={toggle} active={isOpen}>
+                            {isOpen ? "Read less" : "Read more"}
+                        </Button>
+                    }
+                </Row>
+            </Container>
+
+            <Gallery slug={slug} />
         </Layout>
     )
 }

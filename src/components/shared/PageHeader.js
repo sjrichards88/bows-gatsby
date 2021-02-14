@@ -17,6 +17,9 @@ import samanthaOwain from "images/banners/samantha-and-owain.jpg"
 import karenBrian from "images/banners/karen-and-brian.jpg"
 import rachelBrendan from "images/banners/rachel-and-brendan.jpg"
 import rebeccaAlex from "images/banners/rebecca-and-alex.jpg"
+import lucyPaul from "images/banners/lucy-and-paul.jpg"
+import lauraDan from "images/banners/laura-and-dan.jpg"
+import katieNick from "images/banners/katie-and-nick.jpg"
 
 const Wrapper = styled.div`
     position: relative;
@@ -107,6 +110,18 @@ const InnerWrapper = styled.div`
     ${props => props.page === "rebecca-and-alex" && css`
         background-image: url("${rebeccaAlex}");
     `}
+
+    ${props => props.page === "lucy-and-paul" && css`
+        background-image: url("${lucyPaul}");
+    `}
+
+    ${props => props.page === "laura-and-dan" && css`
+        background-image: url("${lauraDan}");
+    `}
+
+    ${props => props.page === "katie-and-nick" && css`
+        background-image: url("${katieNick}");
+    `}
 `
 
 const WrapperText = styled.div`
@@ -123,8 +138,12 @@ const WrapperText = styled.div`
         text-align: center;
         text-shadow: 1px 1px #555;
         font-family: ${props => props.theme.font.family.ruthie};
-        font-size: 55px;
+        font-size: 50px;
         margin: 0;
+
+        @media ${media.sm} {
+            font-size: 55px;
+        }
 
         @media ${media.lg} {
             font-size: 85px;

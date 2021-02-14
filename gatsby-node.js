@@ -24,6 +24,8 @@ exports.createPages = async ({ graphql, actions }) => {
                 nodes {
                     name
                     slug
+                    introText
+                    fullText
                 }
             }
         }
@@ -37,7 +39,9 @@ exports.createPages = async ({ graphql, actions }) => {
             component: slash(path.resolve(`./src/templates/GalleryTemplate.js`)),
             context: {
                 slug: node.slug,
-                name: node.name
+                name: node.name,
+                introText: node.introText,
+                fullText: node.fullText
             },
         })
     })
