@@ -33,7 +33,6 @@ const GalleryPage = (props) => {
         endText
     } = props.data.galleriesJson
 
-    console.log(bannerImage)
 
     return(
         <Layout title={name}>
