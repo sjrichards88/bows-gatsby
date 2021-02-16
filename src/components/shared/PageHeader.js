@@ -4,22 +4,22 @@ import Img from "gatsby-image"
 import styled, { css } from "styled-components"
 import { media } from "utils/Media"
 
-import aboutImg from "images/banners/banner-about.jpg"
-import taorminaImg from "images/banners/taormina.jpg"
-import contactImg from "images/banners/contact-me.jpg"
-import privacyImg from "images/banners/privacy.jpg"
-import cookiesImg from "images/banners/cookies.jpg"
-import galleryImg from "images/banners/gallery.jpg"
-import realwedddingsImg from "images/banners/real-weddings.jpg"
+// import aboutImg from "images/banners/banner-about.jpg"
+// import taorminaImg from "images/banners/taormina.jpg"
+// import contactImg from "images/banners/contact-me.jpg"
+// import privacyImg from "images/banners/privacy.jpg"
+// import cookiesImg from "images/banners/cookies.jpg"
+// import galleryImg from "images/banners/gallery.jpg"
+// import realwedddingsImg from "images/banners/real-weddings.jpg"
 
-import rachelVito from "images/banners/rachel-and-vito.jpg"
-import samanthaOwain from "images/banners/samantha-and-owain.jpg"
-import karenBrian from "images/banners/karen-and-brian.jpg"
-import rachelBrendan from "images/banners/rachel-and-brendan.jpg"
-import rebeccaAlex from "images/banners/rebecca-and-alex.jpg"
-import lucyPaul from "images/banners/lucy-and-paul.jpg"
-import lauraDan from "images/banners/laura-and-dan.jpg"
-import katieNick from "images/banners/katie-and-nick.jpg"
+// import rachelVito from "images/banners/rachel-and-vito.jpg"
+// import samanthaOwain from "images/banners/samantha-and-owain.jpg"
+// import karenBrian from "images/banners/karen-and-brian.jpg"
+// import rachelBrendan from "images/banners/rachel-and-brendan.jpg"
+// import rebeccaAlex from "images/banners/rebecca-and-alex.jpg"
+// import lucyPaul from "images/banners/lucy-and-paul.jpg"
+// import lauraDan from "images/banners/laura-and-dan.jpg"
+// import katieNick from "images/banners/katie-and-nick.jpg"
 
 const Wrapper = styled.div`
     position: relative;
@@ -63,7 +63,7 @@ const InnerWrapper = styled.div`
         }
     `}
 
-    background-size: cover;
+    /* background-size: cover;
     background-position: center center;
     background-image: url("${aboutImg}");
 
@@ -121,7 +121,7 @@ const InnerWrapper = styled.div`
 
     ${props => props.page === "katie-and-nick" && css`
         background-image: url("${katieNick}");
-    `}
+    `} */
 `
 
 const WrapperText = styled.div`
