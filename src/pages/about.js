@@ -1,5 +1,4 @@
 import React from "react"
-// import { Container, Row, Col } from "reactstrap"
 import styled from "styled-components"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
@@ -38,12 +37,24 @@ const AboutPage = () => {
 					}
 				}
             }
+			bannerImage: file(relativePath: { eq: "banners/banner-about.jpg" }) {
+				childImageSharp {
+					fluid(maxWidth: 1920, quality: 85)  {
+						...GatsbyImageSharpFluid_withWebp
+					}
+				}
+			}
         }
     `)
 	
 	return(
 		<Layout title="About">
-			<PageHeader page="about" title="About Me" tall />
+			<PageHeader 
+				page="about" 
+				title="About Me" 
+				tall 
+				bannerImage={data.bannerImage.childImageSharp.fluid}
+			/>
 			
 			<TextContainer thin>
 				<Text md>

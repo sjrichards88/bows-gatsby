@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { graphql } from "gatsby"
 import { Container, Collapse, Row, Col } from "reactstrap"
 import styled, { css } from "styled-components"
 import Layout from "components/Layout/Layout"
@@ -26,14 +27,19 @@ const GalleryPage = (props) => {
     const { 
         name,
         slug,
+        bannerImage,
         introText,
         fullText,
         endText
-    } = props.pageContext
+    } = props.data.galleriesJson
 
     return(
         <Layout title={name}>
-            <PageHeader page={slug === "" ? "gallery" : slug} title={name === "" ? "Gallery" :  name} />
+            <PageHeader 
+                page={slug === "" ? "gallery" : slug} 
+                title={name === "" ? "Gallery" :  name} 
+                bannerImage={bannerImage}
+            />
 
             {introText && 
                 <TextContainer>
@@ -73,5 +79,25 @@ const GalleryPage = (props) => {
         </Layout>
     )
 }
+
+
+export const query = graphql`
+    query($id: String!) {
+        galleriesJson(id: { eq:$id }) {
+            name
+            slug
+            bannerImage {
+                childImageSharp {
+                    fluid(maxWidth: 1920, quality: 85)  {
+                        ...GatsbyImageSharpFluid_withWebp
+                    }
+                }
+            }
+            introText
+            fullText
+            endText
+        }
+    }
+`
 
 export default GalleryPage

@@ -11,7 +11,11 @@ import Text from "components/shared/Text"
 
 const RealWeddingsPage = (props) => (
   	<Layout title="Real Weddings">
-        <PageHeader page="realweddings" title="Real Weddings" />
+        <PageHeader 
+			page="realweddings" 
+			title="Real Weddings" 
+			bannerImage={props.data.bannerImage.childImageSharp.fluid}
+		/>
 
 		<TextContainer>
 			<Text>
@@ -40,7 +44,7 @@ const RealWeddingsPage = (props) => (
   	</Layout>
 )
 
-export default (props) => {
+export default () => {
     return(
         <StaticQuery
             query={graphql`
@@ -52,7 +56,7 @@ export default (props) => {
 								slug
 								coverPhoto {
 									childImageSharp {
-										fluid(maxWidth: 576, quality: 98) {
+										fluid(maxWidth: 576, quality: 85) {
 											...GatsbyImageSharpFluid_withWebp
 										}
 									}
@@ -62,8 +66,15 @@ export default (props) => {
 					}
 					logo: file(relativePath: { eq: "logo.png" }) {
 						childImageSharp {
-							resize(width: 70, cropFocus: CENTER, quality: 98)  {
+							resize(width: 70, cropFocus: CENTER, quality: 85)  {
 								src
+							}
+						}
+					}
+					bannerImage: file(relativePath: { eq: "banners/real-weddings.jpg" }) {
+						childImageSharp {
+							fluid(maxWidth: 1920, quality: 85)  {
+								...GatsbyImageSharpFluid_withWebp
 							}
 						}
 					}

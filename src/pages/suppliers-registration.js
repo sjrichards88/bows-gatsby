@@ -1,13 +1,18 @@
 import React from "react"
+import { StaticQuery, graphql } from "gatsby"
 import Layout from "components/Layout/Layout"
 import PageHeader from "components/shared/PageHeader"
 import TextContainer from "components/shared/TextContainer"
 import Text from "components/shared/Text"
 
-const SuppliersPage = () => {
+const SuppliersPage = (props) => {
     return(
   	    <Layout title="Suppliers Registration and Public Liability Insurance">
-            <PageHeader page="about" title="Suppliers Registration" />
+            <PageHeader 
+                page="about" 
+                title="Suppliers Registration" 
+                bannerImage={props.data.bannerImage.childImageSharp.fluid}
+            />
 
             <TextContainer>
                 <Text md>
@@ -30,4 +35,24 @@ const SuppliersPage = () => {
     )
 }
 
-export default SuppliersPage
+
+export default () => {
+    return(
+        <StaticQuery
+            query={graphql`
+                query {
+					bannerImage: file(relativePath: { eq: "banners/banner-about.jpg" }) {
+						childImageSharp {
+							fluid(maxWidth: 1920, quality: 85)  {
+								...GatsbyImageSharpFluid_withWebp
+							}
+						}
+					}
+                }
+            `}
+            render={data => {
+				return <SuppliersPage data={data} />
+            }}
+        />
+    )
+}

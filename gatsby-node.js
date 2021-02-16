@@ -22,11 +22,8 @@ exports.createPages = async ({ graphql, actions }) => {
         query {
             allGalleriesJson {
                 nodes {
-                    name
+                    id
                     slug
-                    introText
-                    fullText
-                    endText
                 }
             }
         }
@@ -39,11 +36,8 @@ exports.createPages = async ({ graphql, actions }) => {
             path: galleryPath,
             component: slash(path.resolve(`./src/templates/GalleryTemplate.js`)),
             context: {
+                id: node.id,
                 slug: node.slug,
-                name: node.name,
-                introText: node.introText,
-                fullText: node.fullText,
-                endText: node.endText
             },
         })
     })

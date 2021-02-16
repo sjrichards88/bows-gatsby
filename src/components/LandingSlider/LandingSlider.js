@@ -178,15 +178,15 @@ export default () => (
                         node {
                             img {
                                 childImageSharp {
-                                    fluid(maxWidth: 1920, quality: 85) {
-                                        ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                                    fluid(maxWidth: 1600, quality: 85) {
+                                        ...GatsbyImageSharpFluid_withWebp
                                     }
                                 }
                             }
                             imgmob {
                                 childImageSharp {
                                     fluid(maxWidth: 768, quality: 85) {
-                                        ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                                        ...GatsbyImageSharpFluid_withWebp
                                     }
                                 }
                             }
@@ -202,11 +202,3 @@ export default () => (
         }}
     />
 )
-
-// imgMobile {
-//     childImageSharp {
-//         fluid(maxWidth: 768, quality: 100) {
-//             ...GatsbyImageSharpFluid
-//         }
-//     }
-// }

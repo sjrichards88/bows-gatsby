@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-// import Img from "gatsby-image"
+import Img from "gatsby-image"
 import styled, { css } from "styled-components"
 import { media } from "utils/Media"
 
@@ -133,6 +133,13 @@ const WrapperText = styled.div`
     background: rgba(176,196,221,.5);
     padding: 1rem;
 
+    .gatsby-image-sharp {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
     h1 {
         color: #fff;
         text-align: center;
@@ -165,6 +172,7 @@ const PageHeader = (props) => {
     return( 
         <Wrapper>
             <InnerWrapper tall={props.tall} taller={props.taller} taller3={props.taller3} page={props.page}>
+                <Img fluid={props.bannerImage} alt="" />
                 <WrapperText>
                     <h1>{props.title}</h1>
                 </WrapperText>

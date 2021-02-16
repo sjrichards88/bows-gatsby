@@ -1,13 +1,19 @@
 import React from "react"
+import { StaticQuery, graphql } from "gatsby"
 import Layout from "components/Layout/Layout"
 import PageHeader from "components/shared/PageHeader"
 import TextContainer from "components/shared/TextContainer"
 import Text from "components/shared/Text"
 
-const CookiesPage = () => {
+const CookiesPage = (props) => {
     return(
         <Layout title="Cookie Policy">
-            <PageHeader page="cookies" title="Cookie Policy" taller />
+            <PageHeader 
+                page="cookies" 
+                title="Cookie Policy" 
+                taller 
+                bannerImage={props.data.bannerImage.childImageSharp.fluid}
+            />
 
             <TextContainer>
                 {/* <Text md>
@@ -26,4 +32,23 @@ const CookiesPage = () => {
     )
 }
 
-export default CookiesPage
+export default () => {
+    return(
+        <StaticQuery
+            query={graphql`
+                query {
+					bannerImage: file(relativePath: { eq: "banners/cookies.jpg" }) {
+						childImageSharp {
+							fluid(maxWidth: 1920, quality: 85)  {
+								...GatsbyImageSharpFluid_withWebp
+							}
+						}
+					}
+                }
+            `}
+            render={data => {
+				return <CookiesPage data={data} />
+            }}
+        />
+    )
+}

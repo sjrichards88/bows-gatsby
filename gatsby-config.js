@@ -16,17 +16,58 @@ module.exports = {
 			}
 		},
 		{
-			resolve: `gatsby-plugin-google-fonts`,
+			resolve: `gatsby-plugin-webfonts`,
 			options: {
-				fonts: [
-					`Cinzel:wght@400;700`,
-					`Ruthie`,
-					`Satisfy`,
-					`PT Sans \:300,400,700`
-				],
-				display: 'swap'
-			},
+				fonts: {
+					google: [
+						{
+							family: "Cinzel",
+							variants: ["400", "700"],
+							//subsets: ['latin']
+							//text: 'Hello'
+							fontDisplay: 'swap',
+							//strategy: 'selfHosted' // 'base64' || 'cdn'
+						},
+						{
+							family: "Ruthie",
+							// variants: ["400", "700"],
+							//subsets: ['latin']
+							//text: 'Hello'
+							fontDisplay: 'swap',
+							//strategy: 'selfHosted' // 'base64' || 'cdn'
+						},
+						{
+							family: "Satisfy",
+							// variants: ["400", "700"],
+							//subsets: ['latin']
+							//text: 'Hello'
+							fontDisplay: 'swap',
+							//strategy: 'selfHosted' // 'base64' || 'cdn'
+						},
+						{
+							family: "PT Sans",
+							variants: ["300", "400", "700"],
+							//subsets: ['latin']
+							//text: 'Hello'
+							fontDisplay: 'swap',
+							//strategy: 'selfHosted' // 'base64' || 'cdn'
+						},
+					]
+				}
+			}
 		},
+		// {
+		// 	resolve: `gatsby-plugin-google-fonts`,
+		// 	options: {
+		// 		fonts: [
+		// 			`Cinzel:wght@400;700`,
+		// 			`Ruthie`,
+		// 			`Satisfy`,
+		// 			`PT Sans \:300,400,700`
+		// 		],
+		// 		display: 'swap'
+		// 	},
+		// },
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
