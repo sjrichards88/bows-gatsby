@@ -63,6 +63,13 @@ const InnerWrapper = styled.div`
         }
     `}
 
+    .gatsby-image-wrapper {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
     /* background-size: cover;
     background-position: center center;
     background-image: url("${aboutImg}");
@@ -132,13 +139,6 @@ const WrapperText = styled.div`
     width: 100%;
     background: rgba(176,196,221,.5);
     padding: 1rem;
-
-    .gatsby-image-sharp {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-    }
 
     h1 {
         color: #fff;
