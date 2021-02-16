@@ -4,23 +4,6 @@ import Img from "gatsby-image"
 import styled, { css } from "styled-components"
 import { media } from "utils/Media"
 
-// import aboutImg from "images/banners/banner-about.jpg"
-// import taorminaImg from "images/banners/taormina.jpg"
-// import contactImg from "images/banners/contact-me.jpg"
-// import privacyImg from "images/banners/privacy.jpg"
-// import cookiesImg from "images/banners/cookies.jpg"
-// import galleryImg from "images/banners/gallery.jpg"
-// import realwedddingsImg from "images/banners/real-weddings.jpg"
-
-// import rachelVito from "images/banners/rachel-and-vito.jpg"
-// import samanthaOwain from "images/banners/samantha-and-owain.jpg"
-// import karenBrian from "images/banners/karen-and-brian.jpg"
-// import rachelBrendan from "images/banners/rachel-and-brendan.jpg"
-// import rebeccaAlex from "images/banners/rebecca-and-alex.jpg"
-// import lucyPaul from "images/banners/lucy-and-paul.jpg"
-// import lauraDan from "images/banners/laura-and-dan.jpg"
-// import katieNick from "images/banners/katie-and-nick.jpg"
-
 const Wrapper = styled.div`
     position: relative;
     margin-bottom: 1.5rem;
@@ -35,7 +18,6 @@ const Wrapper = styled.div`
         padding-top: 88px;
     }
 `
-
 
 const InnerWrapper = styled.div`
     position: relative;
@@ -64,71 +46,12 @@ const InnerWrapper = styled.div`
     `}
 
     .gatsby-image-wrapper {
-        position: absolute;
+        position: absolute !important;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
+        width: 100%;
     }
-
-    /* background-size: cover;
-    background-position: center center;
-    background-image: url("${aboutImg}");
-
-    ${props => props.page === "taormina" && css`
-        background-image: url("${taorminaImg}");
-    `}
-
-    ${props => props.page === "contact" && css`
-        background-image: url("${contactImg}");
-    `}
-
-    ${props => props.page === "privacy" && css`
-        background-image: url("${privacyImg}");
-    `}
-
-    ${props => props.page === "cookies" && css`
-        background-image: url("${cookiesImg}");
-    `}
-
-    ${props => props.page === "gallery" && css`
-        background-image: url("${galleryImg}");
-    `}
-
-    ${props => props.page === "realweddings" && css`
-        background-image: url("${realwedddingsImg}");
-    `}
-
-    ${props => props.page === "rachel-and-vito" && css`
-        background-image: url("${rachelVito}");
-    `}
-
-    ${props => props.page === "samantha-and-owain" && css`
-        background-image: url("${samanthaOwain}");
-    `}
-
-    ${props => props.page === "karen-and-brian" && css`
-        background-image: url("${karenBrian}");
-    `}
-
-    ${props => props.page === "rachel-and-brendan" && css`
-        background-image: url("${rachelBrendan}");
-    `}
-
-    ${props => props.page === "rebecca-and-alex" && css`
-        background-image: url("${rebeccaAlex}");
-    `}
-
-    ${props => props.page === "lucy-and-paul" && css`
-        background-image: url("${lucyPaul}");
-    `}
-
-    ${props => props.page === "laura-and-dan" && css`
-        background-image: url("${lauraDan}");
-    `}
-
-    ${props => props.page === "katie-and-nick" && css`
-        background-image: url("${katieNick}");
-    `} */
 `
 
 const WrapperText = styled.div`

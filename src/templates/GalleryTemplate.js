@@ -33,12 +33,14 @@ const GalleryPage = (props) => {
         endText
     } = props.data.galleriesJson
 
+    console.log(bannerImage)
+
     return(
         <Layout title={name}>
             <PageHeader 
                 page={slug === "" ? "gallery" : slug} 
                 title={name === "" ? "Gallery" :  name} 
-                bannerImage={bannerImage}
+                bannerImage={bannerImage.childImageSharp.fluid}
             />
 
             {introText && 
