@@ -28,19 +28,19 @@ const InnerWrapper = styled.div`
     }
 
     ${props => props.tall && css`
-        @media ${media.lg} {
+        @media ${media.xl} {
             min-height: 500px;
         }
     `}
 
     ${props => props.taller && css`
-        @media ${media.lg} {
+        @media ${media.xl} {
             min-height: 600px;
         }
     `}
 
     ${props => props.taller3 && css`
-        @media ${media.lg} {
+        @media ${media.xl} {
             min-height: 630px;
         }
     `}
