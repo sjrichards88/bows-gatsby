@@ -1411,345 +1411,189 @@
         ]
     },
     {
-        "name": "Lucy & Paul",
+        "name": "Mary & Patrick",
         "type": "real-wedding",
-        "slug": "lucy-and-paul",
-        "bannerImage": "../images/banners/lucy-and-paul.jpg",
-        "coverPhoto": "../images/gallery/8-Lucy-Paul/cover-photo.jpg",
-        "introText": "<p>British couple Lucy & Paul got married in a civil ceremony in the wedding hall of the 14th Century Palazzo Duchi di Santo Stefano in Taormina with its lovely garden and wishing well.</p>",
-        "fullText": "<p>Lucy had an amazing bouquet. The pretty bridesmaids wore stunning coral dresses and their bouquets were balls of white baby’s breath gypsophila. Matching flowers and chair garland decorations adorned the Palazzo wedding hall. </p><p>After the ceremony the couple had drinks and location photos in Taormina centre followed by a drive though the town in a vintage Volkswagen Beetle</p><p>Family and friends enjoyed an entertaining Sicilian folk style trio on the rooftop of the venue. Pretty floral centrepieces with vases of floating candles decorated the table centres creating a lovely ambience during dinner. A stunning cascade of flowers on the delicious wedding cake and dancing with a DJ at the after party until the early hours of the morning.</p>",
-        "endText": null,
+        "slug": "mary-and-patrick",
+        "bannerImage": "../images/gallery/11-Mary-Patrick/banner.jpg",
+        "coverPhoto": "../images/gallery/11-Mary-Patrick/cover-photo.jpg",
+        "introText": "",
+        "fullText": "",
+        "endText": "",
         "images": [
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-1.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-1.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-2.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-2.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-3.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-3.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-4.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-4.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-5.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-5.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-6.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-6.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-7.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-7.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-8.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-8.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-9.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-9.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-10.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-10.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-11.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-11.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-12.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-12.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-13.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-13.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-14.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-14.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-15.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-15.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-16.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-16.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-17.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-17.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-18.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-18.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-19.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-19.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-20.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-20.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-21.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-21.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-22.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-22.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-23.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-23.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-24.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-24.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-25.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-25.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-26.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-26.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-27.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-27.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-28.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-28.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-29.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-29.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-30.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-30.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-31.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-31.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-32.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-32.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-33.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-33.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-34.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-34.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-35.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-35.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-36.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-36.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-37.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-37.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-38.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-38.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-39.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-39.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-40.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-40.jpg",
                 "caption": ""
-            }
-        ]
-    },
-    {
-        "name": "Rebecca & Alex",
-        "type": "real-wedding",
-        "slug": "rebecca-and-alex",
-        "bannerImage": "../images/banners/rebecca-and-alex.jpg",
-        "coverPhoto": "../images/gallery/5-Rebecca-Alex/cover-photo.jpg",
-        "introText": "<p>British couple Rebecca & Alex got married in a civil ceremony at the 14th Century Palazzo Duchi di Santo Stefano with its lovely garden and wishing well. Rebecca and her bridesmaids walked in the brilliant sunshine from her hotel on the Corso Umberto to the Palazzo wedding hall.</p>",
-        "fullText": "<p>Rebecca chose unusual ‘Miss Piggy’ orangey-pink roses and blush ipericum berries for a striking colour palette. The bridesmaids carried round posies of white gypsophilia and ‘Miss Piggy’ roses in contrast to their dark blue bridesmaids dresses.</p><p>A leisurely walk through back through the town centre for drinks and photos after the ceremony with the bridal party, before heading up to their rooftop reception with magnificent Mount Etna smouldering in the background.</p>",
-        "endText": null,
-        "images": [
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-1.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-2.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-3.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-4.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-5.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-6.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-7.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-8.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-9.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-10.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-11.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-12.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-13.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-14.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-15.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-16.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-17.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-18.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-19.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-20.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-21.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-22.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-23.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-24.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-25.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-26.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-27.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-28.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-29.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-30.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-31.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-32.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-33.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-34.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-35.jpg",
-                "caption": ""
-            },
-            {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-36.jpg",
-                "caption": ""
             },
             {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-37.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-41.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-38.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-42.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-39.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-43.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-40.jpg",
+                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-44.jpg",
                 "caption": ""
             }
         ]
@@ -2115,189 +1959,345 @@
         ]
     },
     {
-        "name": "Mary & Patrick",
+        "name": "Lucy & Paul",
         "type": "real-wedding",
-        "slug": "mary-and-patrick",
-        "bannerImage": "../images/gallery/10-Sam-Chris/banner.jpg",
-        "coverPhoto": "../images/gallery/11-Mary-Patrick/cover-photo.jpg",
-        "introText": "",
-        "fullText": "",
-        "endText": "",
+        "slug": "lucy-and-paul",
+        "bannerImage": "../images/banners/lucy-and-paul.jpg",
+        "coverPhoto": "../images/gallery/8-Lucy-Paul/cover-photo.jpg",
+        "introText": "<p>British couple Lucy & Paul got married in a civil ceremony in the wedding hall of the 14th Century Palazzo Duchi di Santo Stefano in Taormina with its lovely garden and wishing well.</p>",
+        "fullText": "<p>Lucy had an amazing bouquet. The pretty bridesmaids wore stunning coral dresses and their bouquets were balls of white baby’s breath gypsophila. Matching flowers and chair garland decorations adorned the Palazzo wedding hall. </p><p>After the ceremony the couple had drinks and location photos in Taormina centre followed by a drive though the town in a vintage Volkswagen Beetle</p><p>Family and friends enjoyed an entertaining Sicilian folk style trio on the rooftop of the venue. Pretty floral centrepieces with vases of floating candles decorated the table centres creating a lovely ambience during dinner. A stunning cascade of flowers on the delicious wedding cake and dancing with a DJ at the after party until the early hours of the morning.</p>",
+        "endText": null,
         "images": [
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-1.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-1.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-2.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-2.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-3.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-3.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-4.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-4.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-5.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-5.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-6.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-6.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-7.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-7.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-8.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-8.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-9.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-9.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-10.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-10.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-11.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-11.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-12.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-12.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-13.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-13.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-14.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-14.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-15.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-15.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-16.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-16.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-17.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-17.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-18.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-18.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-19.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-19.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-20.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-20.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-21.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-21.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-22.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-22.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-23.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-23.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-24.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-24.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-25.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-25.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-26.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-26.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-27.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-27.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-28.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-28.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-29.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-29.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-30.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-30.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-31.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-31.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-32.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-32.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-33.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-33.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-34.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-34.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-35.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-35.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-36.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-36.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-37.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-37.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-38.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-38.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-39.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-39.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-40.jpg",
+                "img": "../images/gallery/8-Lucy-Paul/civil-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-40.jpg",
+                "caption": ""
+            }
+        ]
+    },
+    {
+        "name": "Rebecca & Alex",
+        "type": "real-wedding",
+        "slug": "rebecca-and-alex",
+        "bannerImage": "../images/banners/rebecca-and-alex.jpg",
+        "coverPhoto": "../images/gallery/5-Rebecca-Alex/cover-photo.jpg",
+        "introText": "<p>British couple Rebecca & Alex got married in a civil ceremony at the 14th Century Palazzo Duchi di Santo Stefano with its lovely garden and wishing well. Rebecca and her bridesmaids walked in the brilliant sunshine from her hotel on the Corso Umberto to the Palazzo wedding hall.</p>",
+        "fullText": "<p>Rebecca chose unusual ‘Miss Piggy’ orangey-pink roses and blush ipericum berries for a striking colour palette. The bridesmaids carried round posies of white gypsophilia and ‘Miss Piggy’ roses in contrast to their dark blue bridesmaids dresses.</p><p>A leisurely walk through back through the town centre for drinks and photos after the ceremony with the bridal party, before heading up to their rooftop reception with magnificent Mount Etna smouldering in the background.</p>",
+        "endText": null,
+        "images": [
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-1.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-41.jpg",
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-2.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-42.jpg",
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-3.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-43.jpg",
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-4.jpg",
                 "caption": ""
             },
             {
-                "img": "../images/gallery/11-Mary-Patrick/catholic-church-wedding-taormina-sicily-belmond-grand-hotel-timeo-44.jpg",
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-5.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-6.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-7.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-8.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-9.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-10.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-11.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-12.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-13.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-14.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-15.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-16.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-17.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-18.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-19.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-20.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-21.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-22.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-23.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-24.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-25.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-26.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-27.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-28.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-29.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-30.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-31.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-32.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-33.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-34.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-35.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-36.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-37.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-38.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-39.jpg",
+                "caption": ""
+            },
+            {
+                "img": "../images/gallery/5-Rebecca-Alex/civil-destination-wedding-taormina-sicily-palazzo-duchi-di-santo-stefano-40.jpg",
                 "caption": ""
             }
         ]

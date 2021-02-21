@@ -25,7 +25,7 @@ const RealWeddingsPage = (props) => (
         </TextContainer>
 
 		<ContainerMax>
-			<Row>
+			<Row className="justify-content-center">
 				{props.data.allGalleriesJson.edges.map((gallery, i) => {
 					return(
 						<Col sm={6} md={4} key={i}>
