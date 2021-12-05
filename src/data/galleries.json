@@ -7,7 +7,7 @@
         "coverPhoto": null,
         "introText": null,
         "fullText": null,
-        "endText": "<p>Photos by Gianmarco Vetrano</p>",
+        "endText": null,
         "images": [
             {
                 "img": "../images/gallery/featured/bouquets-and-bows-destination-wedding-planner-taormina-sicily-1.jpg",
@@ -1606,7 +1606,7 @@
         "coverPhoto": "../images/gallery/9-Laura-Mark/cover-photo.jpg",
         "introText": "",
         "fullText": "",
-        "endText": "",
+        "endText": "<p>Photos by Gianmarco Vetrano</p>",
         "images": [
             {
                 "img": "../images/gallery/9-Laura-Mark/taormina-sicily-wedding-belmond-villa-sant-andrea-1.jpg",
